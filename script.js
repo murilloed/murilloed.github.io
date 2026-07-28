@@ -1,4 +1,4 @@
-const switcher = document.querySelector(".language-switch");
+const switcher = document.querySelector(".lang-toggle");
 const year = document.querySelector("#year");
 let language = localStorage.getItem("language") || "en";
 
@@ -10,9 +10,6 @@ function applyLanguage(nextLanguage) {
     element.textContent = element.dataset[language];
   });
 
-  const labels = switcher.querySelectorAll("span");
-  labels[0].classList.toggle("active", language === "en");
-  labels[2].classList.toggle("active", language === "pt");
   switcher.setAttribute(
     "aria-label",
     language === "en" ? "Mudar para português" : "Switch to English",
