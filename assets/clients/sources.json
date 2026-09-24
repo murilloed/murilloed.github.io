@@ -1,0 +1,314 @@
+{
+  "ANA": {
+    "path": "assets/ana.png",
+    "source": "https://www.gov.br/ana/pt-br/centrais-de-conteudos/imagens/logomarcas",
+    "image_url": "https://www.gov.br/ana/pt-br/centrais-de-conteudos/imagens/logomarcas/logotipo-comunicacao-digital.zip",
+    "kind": "logo",
+    "bytes": 116490,
+    "note": "PNG oficial extraído do pacote de marca comunicação digital."
+  },
+  "CNJ": {
+    "path": "assets/cnj.svg",
+    "source": "https://www.cnj.jus.br/",
+    "image_url": "https://www.cnj.jus.br/wp-content/uploads/2023/09/logo-cnj-portal-20-09-1.svg",
+    "kind": "logo",
+    "bytes": 6620
+  },
+  "ApexBrasil": {
+    "path": "assets/apexbrasil.png",
+    "source": "https://exporta-mais-brasil.apexbrasil.com.br/",
+    "image_url": "https://exporta-mais-brasil.apexbrasil.com.br/content/dam/apexbrasil/icons/log-apex-header.png",
+    "kind": "logo",
+    "bytes": 3829
+  },
+  "CNI": {
+    "path": "assets/cni.svg",
+    "source": "https://cni.portaldaindustria.com.br/home",
+    "image_url": "https://cni.portaldaindustria.com.br/documents/d/global/footer",
+    "kind": "logo",
+    "bytes": 29198
+  },
+  "SEBRAE": {
+    "path": "assets/sebrae.svg",
+    "source": "https://sebrae.com.br/sites/PortalSebrae",
+    "image_url": "https://sebrae.com.br/content/dam/portal-sebrae/na/pt/imagens/logo/logo-sebrae.svg",
+    "kind": "logo",
+    "bytes": 4277
+  },
+  "Bancorbrás": {
+    "path": "assets/bancorbr-s.png",
+    "source": "https://grupobancorbras.com.br/",
+    "image_url": "https://grupobancorbras.com.br/wp-content/themes/grupo-bancorbras-wp/assets/img/logo.png",
+    "kind": "logo",
+    "bytes": 11759
+  },
+  "Accor": {
+    "path": "assets/accor.svg",
+    "source": "https://group.accor.com/en",
+    "image_url": "https://group.accor.com/_next/static/media/accor-logo.2_z53pbi7ds4u.svg",
+    "kind": "logo",
+    "bytes": 3372
+  },
+  "FUNCEF": {
+    "path": "assets/funcef.png",
+    "source": "https://www.funcef.com.br/",
+    "image_url": "https://www.funcef.com.br/wp-content/uploads/2025/09/logoFuncefNegativa.png",
+    "kind": "logo",
+    "bytes": 26949
+  },
+  "IDP": {
+    "path": "assets/idp.png",
+    "source": "https://www.idp.edu.br/",
+    "image_url": "https://wpcdn.idp.edu.br/idpsiteportal/2025/10/favicon.png",
+    "kind": "icon",
+    "bytes": 4881
+  },
+  "IESB": {
+    "path": "assets/iesb.png",
+    "source": "https://www.iesb.br/",
+    "image_url": "https://www.iesb.br/content/themes/iesb-chleba-themosis/assets/imagens/logo.png",
+    "kind": "logo",
+    "bytes": 2295
+  },
+  "UnB": {
+    "path": "assets/unb.png",
+    "source": "https://www.unb.br/",
+    "image_url": "https://www.unb.br/templates/unb/assets/img/logo/as_bas_COR.png",
+    "kind": "logo",
+    "bytes": 2213
+  },
+  "Sage Networks": {
+    "path": "assets/sage-networks.png",
+    "source": "https://sagenetworks.com.br/contato/",
+    "image_url": "https://sagenetworks.com.br/contato/#inline-sage-logo",
+    "kind": "logo",
+    "bytes": 2314,
+    "note": "PNG original incorporado pelo site oficial."
+  },
+  "MGI": {
+    "path": "assets/clients/mgi.png",
+    "source": "https://www.gov.br/transferegov/pt-br/noticias/noticias/arquivos-e-imagens/10a.png/@@images/image-800-32cae7c738907aa6ea3ed38090a3e956.png",
+    "image_url": "https://www.gov.br/transferegov/pt-br/noticias/noticias/arquivos-e-imagens/10a.png/@@images/image-800-32cae7c738907aa6ea3ed38090a3e956.png",
+    "kind": "logo",
+    "local": true
+  },
+  "Ministério da Saúde": {
+    "path": "assets/clients/saude.png",
+    "source": "https://www.gov.br/transferegov/pt-br/noticias/noticias/arquivos-e-imagens/14.png/@@images/image-800-e3d5f87153072de530839b5274cc7be2.png",
+    "image_url": "https://www.gov.br/transferegov/pt-br/noticias/noticias/arquivos-e-imagens/14.png/@@images/image-800-e3d5f87153072de530839b5274cc7be2.png",
+    "kind": "logo",
+    "local": true
+  },
+  "INPI": {
+    "path": "assets/clients/inpi.png",
+    "source": "https://www.gov.br/inpi/en/nova-home-page/%40%40govbr.institucional.banner/c1e399f8-ccf9-479b-a302-f80492cbc470/%40%40images/ebe909c0-1ae7-4891-bcef-1d4520435c85.png",
+    "image_url": "https://www.gov.br/inpi/en/nova-home-page/%40%40govbr.institucional.banner/c1e399f8-ccf9-479b-a302-f80492cbc470/%40%40images/ebe909c0-1ae7-4891-bcef-1d4520435c85.png",
+    "kind": "logo",
+    "local": true
+  },
+  "INMETRO": {
+    "path": "assets/clients/inmetro.png",
+    "source": "https://images.seeklogo.com/logo-png/18/1/inmetro-logo-png_seeklogo-183223.png",
+    "image_url": "https://images.seeklogo.com/logo-png/18/1/inmetro-logo-png_seeklogo-183223.png",
+    "kind": "logo",
+    "local": true
+  },
+  "CFA": {
+    "path": "assets/cfa.png",
+    "source": "https://cfa.org.br/",
+    "image_url": "https://cfa.org.br/wp-content/uploads/2026/09/cropped-positivo_horizontal-01-1.png",
+    "kind": "logo",
+    "bytes": 16797
+  },
+  "PMMG": {
+    "path": "assets/pmmg.svg",
+    "source": "https://www.policiamilitar.mg.gov.br/",
+    "image_url": "https://www.policiamilitar.mg.gov.br/wp-content/uploads/2026/07/pmmg.svg",
+    "kind": "logo",
+    "bytes": 1235
+  },
+  "TJDFT": {
+    "path": "assets/tjdft.png",
+    "source": "https://www.tjdft.jus.br/",
+    "image_url": "https://www.tjdft.jus.br/@@site-logo/logo.png",
+    "kind": "logo",
+    "bytes": 3676
+  },
+  "MTE": {
+    "path": "assets/clients/fgts-digital.png",
+    "source": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/boletim-semana-sit/boletim-semana-sit/boletim-sit-121-2023/logofgtsdigital_fundoazul.png",
+    "image_url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/boletim-semana-sit/boletim-semana-sit/boletim-sit-121-2023/logofgtsdigital_fundoazul.png",
+    "kind": "logo",
+    "local": true
+  },
+  "TCE-MG": {
+    "path": "assets/tce-mg.png",
+    "source": "https://www.tce.mg.gov.br/",
+    "image_url": "https://www.tce.mg.gov.br/Content/images/logo-tcemg-rodape.png",
+    "kind": "logo",
+    "bytes": 7760
+  },
+  "GOV.BR": {
+    "path": "assets/clients/govbr.png",
+    "source": "https://intranet.capes.gov.br/images/16072024assinatura.png",
+    "image_url": "https://intranet.capes.gov.br/images/16072024assinatura.png",
+    "kind": "logo",
+    "local": true
+  },
+  "Ministério Turismo": {
+    "path": "assets/clients/turismo.png",
+    "source": "https://www.gov.br/transferegov/pt-br/noticias/noticias/arquivos-e-imagens/19.png/@@images/image-800-5c885cad88d0d66b116b2a402abb00f9.png",
+    "image_url": "https://www.gov.br/transferegov/pt-br/noticias/noticias/arquivos-e-imagens/19.png/@@images/image-800-5c885cad88d0d66b116b2a402abb00f9.png",
+    "kind": "logo",
+    "local": true
+  },
+  "Indaiatuba": {
+    "path": "assets/indaiatuba.png",
+    "source": "https://www.indaiatuba.sp.gov.br/",
+    "image_url": "https://www.indaiatuba.sp.gov.br/_vs2021/img/logo_invertida_2025.png",
+    "kind": "logo",
+    "bytes": 8255
+  },
+  "Santos": {
+    "path": "assets/santos.ico",
+    "source": "https://www.santos.sp.gov.br/",
+    "image_url": "https://www.santos.sp.gov.br/sites/all/themes/portal/favicon.ico",
+    "kind": "icon",
+    "bytes": 15406
+  },
+  "IPMT": {
+    "path": "assets/ipmt-teresina.png",
+    "source": "https://www.teresina.pi.gov.br/secretarias-e-orgaos/",
+    "image_url": "https://www.teresina.pi.gov.br/wp-content/uploads/2025/09/cropped-LOGO_BRASAO_NOVO-32x32.png",
+    "kind": "icon",
+    "bytes": 878,
+    "note": "Brasão oficial da Prefeitura de Teresina; site IPMT redireciona ao portal municipal."
+  },
+  "Nova Iguaçu": {
+    "path": "assets/nova-igua-u.png",
+    "source": "https://novaiguacu.rj.gov.br/",
+    "image_url": "https://novaiguacu.rj.gov.br/wp-content/themes/novaiguacu/images/logo-2.png",
+    "kind": "logo",
+    "bytes": 12275
+  },
+  "Portão": {
+    "path": "assets/port-o.svg",
+    "source": "https://www.portao.rs.gov.br/",
+    "image_url": "https://www.portao.rs.gov.br/Arquitetura/Imagens/logo.svg",
+    "kind": "logo",
+    "bytes": 2820251
+  },
+  "MDIC": {
+    "path": "assets/clients/mdic.jpg",
+    "source": "https://pbs.twimg.com/profile_images/1820430594427277312/PepScdAC.jpg",
+    "image_url": "https://pbs.twimg.com/profile_images/1820430594427277312/PepScdAC.jpg",
+    "kind": "logo",
+    "local": true
+  },
+  "FIESP": {
+    "path": "assets/fiesp.ico",
+    "source": "https://www.fiesp.com.br/",
+    "image_url": "https://www.fiesp.com.br/wp-content/themes/novo-fiesp/images/favicon.ico",
+    "kind": "icon",
+    "bytes": 5430
+  },
+  "FIERGS": {
+    "path": "assets/fiergs.png",
+    "source": "https://www.fiergs.org.br/",
+    "image_url": "https://www.fiergs.org.br/sites/default/files/styles/scale_sm/public/logos/avatares_sistema_fiergs_fiergs_cor.png?itok=1TdQrlVB",
+    "kind": "logo",
+    "bytes": 2667
+  },
+  "FIEPA": {
+    "path": "assets/fiepa.png",
+    "source": "https://www.fiepa.org.br/",
+    "image_url": "https://static.wixstatic.com/media/cf72c4_031449da5657472bb74baaf8260a0589~mv2.png",
+    "kind": "logo",
+    "bytes": 8060,
+    "note": "Sistema FIEPA com assinatura em cores, identificado no cabeçalho oficial."
+  },
+  "FIEC": {
+    "path": "assets/fiec.png",
+    "source": "https://www1.sfiec.org.br/",
+    "image_url": "https://www1.sfiec.org.br/assets/images/logo.png",
+    "kind": "logo",
+    "bytes": 13435
+  },
+  "INDYCAR": {
+    "path": "assets/indycar.png",
+    "source": "https://www.indycar.com/",
+    "image_url": "https://www.indycar.com/-/media/IndyCar/Logos/INDYCAR-Dark.png",
+    "kind": "logo",
+    "bytes": 173498
+  },
+  "Tesoura de Ouro": {
+    "path": "assets/tesoura-de-ouro.png",
+    "source": "https://www.tesouradeouro.com.br/",
+    "image_url": "https://themes.shoppubcdn.com/4a798799-dcf2-4d70-94d0-aab0d04e8eca/live/static/assets/img/favico/64.png?_ts=1736790961",
+    "kind": "icon",
+    "bytes": 3030
+  },
+  "CORREIOS": {
+    "path": "assets/correios.svg",
+    "source": "https://www.correios.com.br/",
+    "image_url": "https://www.correios.com.br/++theme++tema-do-portal-correios/static/imagens/correios.svg",
+    "kind": "logo",
+    "bytes": 5329
+  },
+  "BNDES": {
+    "path": "assets/bndes.ico",
+    "source": "https://www.bndes.gov.br/wps/portal/site/home",
+    "image_url": "https://www.bndes.gov.br/pelev3/images/favicon.ico",
+    "kind": "icon",
+    "bytes": 1406
+  },
+  "PROTEGE": {
+    "path": "assets/protege.png",
+    "source": "https://www.protege.com.br/",
+    "image_url": "https://www.protege.com.br/media/1013/logo-protege-real.png",
+    "kind": "logo",
+    "bytes": 17832
+  },
+  "SPDATA": {
+    "path": "assets/spdata.webp",
+    "source": "https://spdata.com.br/",
+    "image_url": "https://spdata.com.br/wp-content/uploads/2024/12/logo-spdata.webp",
+    "kind": "logo",
+    "bytes": 8274
+  },
+  "IFCE": {
+    "path": "assets/ifce.png",
+    "source": "https://portal.ifce.edu.br/",
+    "image_url": "https://portal.ifce.edu.br/static/images/favicon.png",
+    "kind": "icon",
+    "bytes": 888
+  },
+  "FAPEG": {
+    "path": "assets/fapeg.png",
+    "source": "https://goias.gov.br/fapeg/",
+    "image_url": "https://goias.gov.br/wp-content/uploads/logos/FAPEG_DESKTOP.png",
+    "kind": "logo",
+    "bytes": 12850
+  },
+  "UFG": {
+    "path": "assets/ufg.svg",
+    "source": "https://ufg.br/",
+    "image_url": "https://files.cercomp.ufg.br/weby/assets/ufg2/marca-ufg-677b562915f50ba83e8e1516f068bde65a0e00330471068ad6320189ac9f140a.svg",
+    "kind": "logo",
+    "bytes": 7352
+  },
+  "UniCEUB": {
+    "path": "assets/uniceub.png",
+    "source": "https://www.uniceub.br/",
+    "image_url": "https://www.uniceub.br/imagens/logoCEUB2021.png",
+    "kind": "logo",
+    "bytes": 1192
+  },
+  "UFPE": {
+    "path": "assets/ufpe.png",
+    "source": "https://www.ufpe.br/",
+    "image_url": "https://www.ufpe.br/image/company_logo?img_id=20911&t=1789481531472",
+    "kind": "logo",
+    "bytes": 6950
+  }
+}

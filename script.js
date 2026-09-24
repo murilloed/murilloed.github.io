@@ -23,3 +23,17 @@ switcher.addEventListener("click", () => {
 
 year.textContent = new Date().getFullYear();
 applyLanguage(language);
+
+// Keep navigation state aligned with direct links and in-page navigation.
+const navigationLinks = document.querySelectorAll('.topbar nav a[href^="#"]');
+function updateNavigation() {
+  const hash = window.location.hash || "#home";
+  navigationLinks.forEach((link) => {
+    const active = link.getAttribute("href") === hash;
+    link.classList.toggle("active", active);
+    if (active) link.setAttribute("aria-current", "location");
+    else link.removeAttribute("aria-current");
+  });
+}
+window.addEventListener("hashchange", updateNavigation);
+updateNavigation();
