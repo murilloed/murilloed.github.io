@@ -1,0 +1,103 @@
+{
+  "Go": {
+    "file": "go.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg"
+  },
+  "Haskell": {
+    "file": "haskell.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/haskell/haskell-original.svg"
+  },
+  "C++": {
+    "file": "cplusplus.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+  },
+  "C#": {
+    "file": "csharp.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+  },
+  "C": {
+    "file": "c.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+  },
+  "COBOL": null,
+  "HTML5": {
+    "file": "html5.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+  },
+  "CSS3": {
+    "file": "css3.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+  },
+  "JavaScript": {
+    "file": "javascript.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+  },
+  "TypeScript": {
+    "file": "typescript.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+  },
+  "React": {
+    "file": "react.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+  },
+  "Next.js": {
+    "file": "nextjs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+  },
+  "Bootstrap": {
+    "file": "bootstrap.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
+  },
+  "Tailwind CSS": {
+    "file": "tailwindcss.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+  },
+  "Sass": {
+    "file": "sass.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+  },
+  "PHP": {
+    "file": "php.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+  },
+  "Laravel": {
+    "file": "laravel.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg"
+  },
+  "Java": {
+    "file": "java.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+  },
+  ".NET": {
+    "file": "dot-net.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg"
+  },
+  "AWS": {
+    "file": "amazonwebservices.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+  },
+  "Azure DevOps": {
+    "file": "azuredevops.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg"
+  },
+  "Oracle": {
+    "file": "oracle.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg"
+  },
+  "SQL Server": {
+    "file": "microsoftsqlserver.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg"
+  },
+  "PostgreSQL": {
+    "file": "postgresql.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+  },
+  "Git": {
+    "file": "git.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+  },
+  "Python": {
+    "file": "python.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+  }
+}

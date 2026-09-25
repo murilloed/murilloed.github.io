@@ -410,5 +410,15 @@
     "path": "assets/clients/seopi.jpg",
     "source": "Provided by site owner: SEOPI.jpg",
     "kind": "logo"
+  },
+  "R5 Inteligência Digital": {
+    "path": "assets/clients/r5.png",
+    "source": "Logo provided by site owner",
+    "kind": "logo"
+  },
+  "Águas Brasil": {
+    "path": "assets/clients/aguas-brasil.jpg",
+    "source": "Logo provided by site owner",
+    "kind": "logo"
   }
 }
