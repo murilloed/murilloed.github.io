@@ -420,5 +420,10 @@
     "path": "assets/clients/aguas-brasil.jpg",
     "source": "Logo provided by site owner",
     "kind": "logo"
+  },
+  "Memora Processos Inovadores": {
+    "path": "assets/clients/memora.jpg",
+    "source": "Logo provided by site owner: Memora.jpg",
+    "kind": "logo"
   }
 }
