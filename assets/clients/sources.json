@@ -310,5 +310,105 @@
     "image_url": "https://www.ufpe.br/image/company_logo?img_id=20911&t=1789481531472",
     "kind": "logo",
     "bytes": 6950
+  },
+  "ASSBAN • plataforma de câmbio": {
+    "path": "assets/clients/assban.png",
+    "source": "Provided by site owner: assban.png",
+    "kind": "logo"
+  },
+  "Detran-DF": {
+    "path": "assets/clients/detran-df.png",
+    "source": "Provided by site owner: detran-df-logo-png_seeklogo-269407.png",
+    "kind": "logo"
+  },
+  "Grupo CCR": {
+    "path": "assets/clients/grupo-ccr.webp",
+    "source": "Provided by site owner: Grupo_CCR.svg.webp",
+    "kind": "logo"
+  },
+  "Itamaraty": {
+    "path": "assets/clients/itamaraty.jpg",
+    "source": "Provided by site owner: Itamaraty.jpg",
+    "kind": "logo"
+  },
+  "senhasegura": {
+    "path": "assets/clients/senhasegura.png",
+    "source": "Provided by site owner: logo senhaSegura.png",
+    "kind": "logo"
+  },
+  "Amazon Web Services (AWS)": {
+    "path": "assets/clients/aws.webp",
+    "source": "Provided by site owner: logo_Amazon_Web_Services_Logo.svg.webp",
+    "kind": "logo"
+  },
+  "BiomaData": {
+    "path": "assets/clients/biomadata.svg",
+    "source": "Provided by site owner: logo_biomadata-brasil-cerrado.svg",
+    "kind": "logo"
+  },
+  "EDF • Électricité de France": {
+    "path": "assets/clients/edf.webp",
+    "source": "Provided by site owner: logo_EDF_Électricité_de_France_logo.svg.webp",
+    "kind": "logo"
+  },
+  "FIBRA": {
+    "path": "assets/clients/fibra.jpg",
+    "source": "Provided by site owner: LOGO_FIBRA.jpg",
+    "kind": "logo"
+  },
+  "FIEP": {
+    "path": "assets/clients/fiep.webp",
+    "source": "Provided by site owner: logo_FIEP.webp",
+    "kind": "logo"
+  },
+  "INVISTA": {
+    "path": "assets/clients/invista.jpg",
+    "source": "Provided by site owner: logo_invista.jpg",
+    "kind": "logo"
+  },
+  "Prefeitura de Franca • SP": {
+    "path": "assets/clients/franca.jpg",
+    "source": "Provided by site owner: logo_prefeituraMunicipaldeFrança.jpg",
+    "kind": "logo"
+  },
+  "PRORADIS": {
+    "path": "assets/clients/proradis.png",
+    "source": "Provided by site owner: logo_PRORADIS_vert.png",
+    "kind": "logo"
+  },
+  "Rodobens": {
+    "path": "assets/clients/rodobens.png",
+    "source": "Provided by site owner: Logo_Rodobens_Atualizado.png",
+    "kind": "logo"
+  },
+  "UFRA": {
+    "path": "assets/clients/ufra.png",
+    "source": "Provided by site owner: LOGO_ufra.png",
+    "kind": "logo"
+  },
+  "Dataprev": {
+    "path": "assets/clients/dataprev.webp",
+    "source": "Provided by site owner: Logotipo_da_Dataprev.svg.webp",
+    "kind": "logo"
+  },
+  "Marcopolo": {
+    "path": "assets/clients/marcopolo.png",
+    "source": "Provided by site owner: marcopolo-logo-0.png",
+    "kind": "logo"
+  },
+  "Ministério da Economia": {
+    "path": "assets/clients/economia.jpg",
+    "source": "Provided by site owner: ministrio_da_economia_logo.jpg",
+    "kind": "logo"
+  },
+  "SECOM": {
+    "path": "assets/clients/secom.png",
+    "source": "Provided by site owner: SECOM - Secretary_of_Social_Communication_for_the_Presidency_of_Brazil_(logo).png",
+    "kind": "logo"
+  },
+  "SEOPI / Ministério da Justiça": {
+    "path": "assets/clients/seopi.jpg",
+    "source": "Provided by site owner: SEOPI.jpg",
+    "kind": "logo"
   }
 }
