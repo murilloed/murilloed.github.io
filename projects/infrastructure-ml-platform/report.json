@@ -1,0 +1,33 @@
+{
+  "accepted": 200,
+  "duplicate": 5,
+  "rejected": 1,
+  "stored_total": 200,
+  "elapsed_seconds": 0.013161939000156053,
+  "events_per_second": 15651.189387639433,
+  "latency_p95_ms": 2.309728999989602,
+  "assets": [
+    {
+      "asset": "asset-0",
+      "events": 50,
+      "mean_cpu": 44.19179469830384
+    },
+    {
+      "asset": "asset-1",
+      "events": 50,
+      "mean_cpu": 44.67133862890103
+    },
+    {
+      "asset": "asset-2",
+      "events": 50,
+      "mean_cpu": 46.3518443760105
+    },
+    {
+      "asset": "asset-3",
+      "events": 50,
+      "mean_cpu": 51.79001613237716
+    }
+  ],
+  "execution": "local asyncio, synchronous transactional SQLite sink",
+  "synthetic": true
+}

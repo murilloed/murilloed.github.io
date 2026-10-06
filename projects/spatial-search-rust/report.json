@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "seed": 7,
+  "size": 30,
+  "astar": {
+    "length": 58,
+    "expanded": 570,
+    "seconds": 0.0009589379999397352
+  },
+  "dijkstra": {
+    "length": 58,
+    "expanded": 717,
+    "seconds": 0.0010306670001227758
+  },
+  "parallel_batch_seconds": 0.007795835000024454,
+  "parallel_jobs": 4,
+  "rust_validated": true,
+  "rust_length": 58
+}

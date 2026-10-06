@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "query": "rede de água do bairro cerrado",
+  "answer": "A rede de água do bairro Cerrado conecta o reservatório à escola. [D1] A escola do bairro Cerrado possui 120 alunos e demanda abastecimento de água. [D2] O reservatório alimenta a rede de água e requer inspeção periódica. [D3]",
+  "citations": [
+    {
+      "id": "D1",
+      "source": "synthetic://water-network",
+      "text": "A rede de água do bairro Cerrado conecta o reservatório à escola.",
+      "score": 0.6716714664678836,
+      "kind": "vector"
+    },
+    {
+      "id": "D2",
+      "source": "synthetic://school",
+      "text": "A escola do bairro Cerrado possui 120 alunos e demanda abastecimento de água.",
+      "score": 0.39817934515978515,
+      "kind": "vector"
+    },
+    {
+      "id": "D3",
+      "source": "synthetic://reservoir",
+      "text": "O reservatório alimenta a rede de água e requer inspeção periódica.",
+      "score": null,
+      "kind": "graph"
+    }
+  ],
+  "abstained": false,
+  "method": "extractive TF-IDF + one-hop graph"
+}

@@ -1,0 +1,39 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Recuperação de documentos com evidências e relações entre ativos."/><title>Conhecimento urbano conectado · Murillo Carvalho</title><link rel="stylesheet" href="../../styles.css?v=5"/><link rel="stylesheet" href="../../projects.css?v=1"/><script src="../../script.js?v=4" defer></script><script src="../../projects.js?v=1" defer></script></head>
+    <body class="project-detail"><a class="skip-link" href="#content">Ir ao conteúdo</a><header class="topbar"><a class="logo" href="../../#home">Murillo<span>Ed</span></a><nav aria-label="Menu"><a href="../../#projects" data-pt="← Todos os projetos" data-en="← All projects">← Todos os projetos</a></nav><div class="header-tools"><button class="lang-toggle" type="button">EN / PT</button><a class="github-button" href="https://github.com/murilloed" target="_blank" rel="noreferrer">GitHub ↗</a></div></header>
+    <main id="content" class="shell"><section class="project-detail-hero"><div><span class="section-index">PROJECT 06 / RESEARCH & ENGINEERING</span><h1 class="" data-pt="Conhecimento urbano conectado" data-en="Connected urban knowledge">Conhecimento urbano conectado</h1><p class="project-lead" data-pt="Recuperação de documentos com evidências e relações entre ativos." data-en="Evidence-based retrieval across documents and asset relations.">Recuperação de documentos com evidências e relações entre ativos.</p><div class="project-status"><i></i><span class="" data-pt="MVP executável · v0.1.0" data-en="Executable MVP · v0.1.0">MVP executável · v0.1.0</span></div><div class="project-tags"><span>Python</span><span>Vetores</span><span>Grafos</span><span>MongoDB</span></div><div class="hero-actions"><a class="button primary" href="https://github.com/murilloed/urban-engineering-graphrag" target="_blank" rel="noreferrer" data-pt="Ver no GitHub ↗" data-en="View on GitHub ↗">Ver no GitHub ↗</a><a class="button ghost" href="source.zip" download data-pt="Baixar código ↓" data-en="Download code ↓">Baixar código ↓</a><a class="button ghost" href="report.json" data-pt="Resultados JSON ↗" data-en="JSON results ↗">Resultados JSON ↗</a></div></div><img class="detail-cover" src="../../assets/projects/urban-engineering-graphrag.svg" alt="" width="640" height="360"/></section>
+    <div class="project-evidence"><div><strong>3</strong><span class="" data-pt="documentos recuperados" data-en="retrieved documents">documentos recuperados</span></div><div><strong>01</strong><span class="" data-pt="execução documentada" data-en="documented run">execução documentada</span></div><div><strong>MIT</strong><span class="" data-pt="código aberto" data-en="open source">código aberto</span></div></div>
+    <p class="project-provenance" data-pt="Estudo independente com dados sintéticos, inspirado em experiências setoriais do autor. Não representa entrega ou endosso de clientes. Métricas desta execução não demonstram desempenho em produção." data-en="Independent study with synthetic data, inspired by the author's sector experience. Not a client delivery or endorsement. Run metrics do not establish production performance.">Estudo independente com dados sintéticos, inspirado em experiências setoriais do autor. Não representa entrega ou endosso de clientes. Métricas desta execução não demonstram desempenho em produção.</p>
+    <div class="project-detail-grid"><section class="project-panel"><h2 class="" data-pt="Problema e contexto" data-en="Problem &amp; context">Problema e contexto</h2><p>Recuperação de documentos com evidências e relações entre ativos.</p><span class="mini-label">ANA · BiomaData</span><h3 class="" data-pt="Implementação atual" data-en="Current implementation">Implementação atual</h3><p>Corpus sintético com IDs e proveniência; índice vetorial TF-IDF/cosseno; expansão de grafo; resposta extrativa com citações e abstinência; adapter MongoDB opcional. Nenhuma chamada a LLM nesta versão.</p></section><section class="project-panel"><h2 class="" data-pt="Próximas etapas" data-en="Next steps">Próximas etapas</h2><p>Embeddings semânticos, banco vetorial e grafo persistentes; LLM com citações verificadas; avaliação de recuperação; ingestão de PDFs públicos licenciados; controle de versões.</p><h3 class="" data-pt="Reproduza o experimento" data-en="Reproduce the experiment">Reproduza o experimento</h3><pre><code>python -m pip install -e .
+python -m urbanrag.demo
+python -m unittest discover -s tests -v</code></pre></section></div>
+    <section class="project-panel result-panel"><h2 class="" data-pt="Resultados e limites" data-en="Results &amp; limitations">Resultados e limites</h2><p data-pt="Relatório da execução registrada. Consulte os parâmetros e os resultados negativos antes de interpretar as métricas." data-en="Recorded run report. Check parameters and negative results before interpreting metrics.">Relatório da execução registrada. Consulte os parâmetros e os resultados negativos antes de interpretar as métricas.</p><details><summary data-pt="Ver relatório completo" data-en="View full report">Ver relatório completo</summary><pre><code>{
+  &quot;synthetic&quot;: true,
+  &quot;query&quot;: &quot;rede de água do bairro cerrado&quot;,
+  &quot;answer&quot;: &quot;A rede de água do bairro Cerrado conecta o reservatório à escola. [D1] A escola do bairro Cerrado possui 120 alunos e demanda abastecimento de água. [D2] O reservatório alimenta a rede de água e requer inspeção periódica. [D3]&quot;,
+  &quot;citations&quot;: [
+    {
+      &quot;id&quot;: &quot;D1&quot;,
+      &quot;source&quot;: &quot;synthetic://water-network&quot;,
+      &quot;text&quot;: &quot;A rede de água do bairro Cerrado conecta o reservatório à escola.&quot;,
+      &quot;score&quot;: 0.6716714664678836,
+      &quot;kind&quot;: &quot;vector&quot;
+    },
+    {
+      &quot;id&quot;: &quot;D2&quot;,
+      &quot;source&quot;: &quot;synthetic://school&quot;,
+      &quot;text&quot;: &quot;A escola do bairro Cerrado possui 120 alunos e demanda abastecimento de água.&quot;,
+      &quot;score&quot;: 0.39817934515978515,
+      &quot;kind&quot;: &quot;vector&quot;
+    },
+    {
+      &quot;id&quot;: &quot;D3&quot;,
+      &quot;source&quot;: &quot;synthetic://reservoir&quot;,
+      &quot;text&quot;: &quot;O reservatório alimenta a rede de água e requer inspeção periódica.&quot;,
+      &quot;score&quot;: null,
+      &quot;kind&quot;: &quot;graph&quot;
+    }
+  ],
+  &quot;abstained&quot;: false,
+  &quot;method&quot;: &quot;extractive TF-IDF + one-hop graph&quot;
+}</code></pre></details></section>
+    <a class="button ghost back-projects" href="../../#projects" data-pt="← Voltar aos projetos" data-en="← Back to projects">← Voltar aos projetos</a></main><footer><div class="shell copyright"><span>© <span id="year">2026</span> Murillo Carvalho</span><a href="../../#projects" data-pt="Projetos" data-en="Projects">Projetos</a></div></footer></body></html>

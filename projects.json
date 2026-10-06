@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "sanitation-planning-rl",
+    "title": "Saneamento inteligente",
+    "title_en": "Intelligent sanitation",
+    "category": "spatial",
+    "context": "ANA · Águas Brasil · BiomaData",
+    "description": "Planejamento de expansão de redes com orçamento limitado.",
+    "description_en": "Budget-constrained network expansion planning.",
+    "tags": [
+      "Python",
+      "MCTS",
+      "Policy / Value",
+      "Grafos"
+    ],
+    "package": "sanplan"
+  },
+  {
+    "slug": "roadvision-adversarial",
+    "title": "Visão robusta para pavimentos",
+    "title_en": "Robust pavement vision",
+    "category": "vision",
+    "context": "Grupo CCR · Detran-DF",
+    "description": "Classificação visual e avaliação sob perturbações adversariais.",
+    "description_en": "Visual classification and adversarial robustness evaluation.",
+    "tags": [
+      "PyTorch",
+      "ResNet",
+      "FGSM",
+      "PGD"
+    ],
+    "package": "roadvision"
+  },
+  {
+    "slug": "industrial-layout-gan",
+    "title": "Layouts industriais generativos",
+    "title_en": "Generative industrial layouts",
+    "category": "vision",
+    "context": "Marcopolo",
+    "description": "Geração adversarial de layouts com validação geométrica.",
+    "description_en": "Adversarial layout generation with geometric validation.",
+    "tags": [
+      "PyTorch",
+      "cGAN",
+      "Geometria",
+      "SVG"
+    ],
+    "package": "layoutgan"
+  },
+  {
+    "slug": "infrastructure-ml-platform",
+    "title": "Dados e MLOps para infraestrutura",
+    "title_en": "Infrastructure data & MLOps",
+    "category": "data",
+    "context": "Marcopolo · SPData · AWS",
+    "description": "Ingestão assíncrona, qualidade dos dados e processamento em lote.",
+    "description_en": "Async ingestion, data quality and batch processing.",
+    "tags": [
+      "asyncio",
+      "MongoDB",
+      "Spark",
+      "AWS"
+    ],
+    "package": "mlplatform"
+  },
+  {
+    "slug": "cyber-defense-selfplay",
+    "title": "Defesa cibernética em self-play",
+    "title_en": "Cyber defense self-play",
+    "category": "rl",
+    "context": "SenhaSegura · Protege",
+    "description": "Jogo abstrato entre agentes de ataque e defesa.",
+    "description_en": "Abstract attacker–defender multi-agent game.",
+    "tags": [
+      "PyTorch",
+      "PPO",
+      "Self-play",
+      "MDP"
+    ],
+    "package": "cyberplay"
+  },
+  {
+    "slug": "urban-engineering-graphrag",
+    "title": "Conhecimento urbano conectado",
+    "title_en": "Connected urban knowledge",
+    "category": "data",
+    "context": "ANA · BiomaData",
+    "description": "Recuperação de documentos com evidências e relações entre ativos.",
+    "description_en": "Evidence-based retrieval across documents and asset relations.",
+    "tags": [
+      "Python",
+      "Vetores",
+      "Grafos",
+      "MongoDB"
+    ],
+    "package": "urbanrag"
+  },
+  {
+    "slug": "school-space-planner",
+    "title": "Espaços escolares otimizados",
+    "title_en": "Optimized school spaces",
+    "category": "spatial",
+    "context": "Keduka · Caeduca",
+    "description": "Alocação de turmas em salas com restrições de capacidade.",
+    "description_en": "Room assignment under capacity constraints.",
+    "tags": [
+      "Python",
+      "Busca",
+      "MCTS",
+      "Restrições"
+    ],
+    "package": "schoolplan"
+  },
+  {
+    "slug": "spatial-search-rust",
+    "title": "Busca espacial em alto desempenho",
+    "title_en": "High-performance spatial search",
+    "category": "systems",
+    "context": "Saneamento · Indústria",
+    "description": "Caminho mínimo em grade com implementações Python e Rust.",
+    "description_en": "Grid shortest-path search in Python and Rust.",
+    "tags": [
+      "Rust",
+      "Python",
+      "A*",
+      "Paralelismo"
+    ],
+    "package": "spatialsearch"
+  }
+]

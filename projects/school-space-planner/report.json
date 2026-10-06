@@ -1,0 +1,37 @@
+{
+  "synthetic": true,
+  "seed": 7,
+  "iterations": 300,
+  "solutions": {
+    "greedy": {
+      "objective": 3965,
+      "assigned": 4,
+      "assignment": {
+        "C1": "A",
+        "C2": "B",
+        "C3": "C",
+        "C4": "B"
+      }
+    },
+    "mcts": {
+      "objective": 3965,
+      "assigned": 4,
+      "assignment": {
+        "C1": "A",
+        "C2": "B",
+        "C3": "C",
+        "C4": "B"
+      }
+    },
+    "exact": {
+      "objective": 3965,
+      "assigned": 4,
+      "assignment": {
+        "C1": "A",
+        "C2": "B",
+        "C3": "C",
+        "C4": "B"
+      }
+    }
+  }
+}

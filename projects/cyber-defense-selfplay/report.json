@@ -1,0 +1,329 @@
+{
+  "synthetic": true,
+  "seed": 7,
+  "updates": 50,
+  "game": "one-step zero-sum MDP; abstract allocation",
+  "defense_policy": [
+    0.00024131237296387553,
+    0.9986942410469055,
+    0.0010644750436767936
+  ],
+  "evaluation": {
+    "current": {
+      "mean_damage": 0.1850000023841858
+    },
+    "uniform": {
+      "mean_damage": 1.3229999542236328
+    },
+    "checkpoint_0": {
+      "mean_damage": 1.6790000200271606
+    },
+    "checkpoint_1": {
+      "mean_damage": 0.04600000008940697
+    }
+  },
+  "history": [
+    {
+      "update": 0,
+      "mean_attack_return": 1.375,
+      "attack_loss": 1.8687726259231567,
+      "defense_loss": 1.4268423318862915
+    },
+    {
+      "update": 1,
+      "mean_attack_return": 1.3515625,
+      "attack_loss": 1.6306735277175903,
+      "defense_loss": 1.268409252166748
+    },
+    {
+      "update": 2,
+      "mean_attack_return": 1.25,
+      "attack_loss": 1.252996802330017,
+      "defense_loss": 0.9841611981391907
+    },
+    {
+      "update": 3,
+      "mean_attack_return": 1.109375,
+      "attack_loss": 0.9536432027816772,
+      "defense_loss": 0.7510227560997009
+    },
+    {
+      "update": 4,
+      "mean_attack_return": 0.8828125,
+      "attack_loss": 0.6890233755111694,
+      "defense_loss": 0.5904340744018555
+    },
+    {
+      "update": 5,
+      "mean_attack_return": 1.09375,
+      "attack_loss": 0.7801209092140198,
+      "defense_loss": 0.6669830679893494
+    },
+    {
+      "update": 6,
+      "mean_attack_return": 0.96875,
+      "attack_loss": 0.586477518081665,
+      "defense_loss": 0.5416710376739502
+    },
+    {
+      "update": 7,
+      "mean_attack_return": 0.9609375,
+      "attack_loss": 0.49374517798423767,
+      "defense_loss": 0.505120038986206
+    },
+    {
+      "update": 8,
+      "mean_attack_return": 0.859375,
+      "attack_loss": 0.5330179333686829,
+      "defense_loss": 0.5410895347595215
+    },
+    {
+      "update": 9,
+      "mean_attack_return": 0.875,
+      "attack_loss": 0.43797796964645386,
+      "defense_loss": 0.48237061500549316
+    },
+    {
+      "update": 10,
+      "mean_attack_return": 0.953125,
+      "attack_loss": 0.3911813497543335,
+      "defense_loss": 0.45445412397384644
+    },
+    {
+      "update": 11,
+      "mean_attack_return": 1.2109375,
+      "attack_loss": 0.37440410256385803,
+      "defense_loss": 0.47781023383140564
+    },
+    {
+      "update": 12,
+      "mean_attack_return": 1.265625,
+      "attack_loss": 0.32081422209739685,
+      "defense_loss": 0.4391585886478424
+    },
+    {
+      "update": 13,
+      "mean_attack_return": 1.421875,
+      "attack_loss": 0.32421553134918213,
+      "defense_loss": 0.4334946274757385
+    },
+    {
+      "update": 14,
+      "mean_attack_return": 1.3125,
+      "attack_loss": 0.31963223218917847,
+      "defense_loss": 0.4214588403701782
+    },
+    {
+      "update": 15,
+      "mean_attack_return": 1.4140625,
+      "attack_loss": 0.2724609076976776,
+      "defense_loss": 0.362750768661499
+    },
+    {
+      "update": 16,
+      "mean_attack_return": 1.7265625,
+      "attack_loss": 0.19217655062675476,
+      "defense_loss": 0.22844591736793518
+    },
+    {
+      "update": 17,
+      "mean_attack_return": 1.8046875,
+      "attack_loss": 0.17346829175949097,
+      "defense_loss": 0.1777113527059555
+    },
+    {
+      "update": 18,
+      "mean_attack_return": 1.8828125,
+      "attack_loss": 0.0931345596909523,
+      "defense_loss": 0.10022450238466263
+    },
+    {
+      "update": 19,
+      "mean_attack_return": 1.8515625,
+      "attack_loss": 0.08686938881874084,
+      "defense_loss": 0.12467500567436218
+    },
+    {
+      "update": 20,
+      "mean_attack_return": 1.875,
+      "attack_loss": 0.06519036740064621,
+      "defense_loss": 0.09558853507041931
+    },
+    {
+      "update": 21,
+      "mean_attack_return": 1.796875,
+      "attack_loss": 0.17654290795326233,
+      "defense_loss": 0.18777243793010712
+    },
+    {
+      "update": 22,
+      "mean_attack_return": 1.8828125,
+      "attack_loss": 0.111225925385952,
+      "defense_loss": 0.0834961086511612
+    },
+    {
+      "update": 23,
+      "mean_attack_return": 1.8828125,
+      "attack_loss": 0.09128337353467941,
+      "defense_loss": 0.05362753942608833
+    },
+    {
+      "update": 24,
+      "mean_attack_return": 1.828125,
+      "attack_loss": 0.15466976165771484,
+      "defense_loss": 0.09754786640405655
+    },
+    {
+      "update": 25,
+      "mean_attack_return": 1.7890625,
+      "attack_loss": 0.19237001240253448,
+      "defense_loss": 0.14413565397262573
+    },
+    {
+      "update": 26,
+      "mean_attack_return": 1.609375,
+      "attack_loss": 0.305717796087265,
+      "defense_loss": 0.22108194231987
+    },
+    {
+      "update": 27,
+      "mean_attack_return": 1.53125,
+      "attack_loss": 0.3589746356010437,
+      "defense_loss": 0.25253787636756897
+    },
+    {
+      "update": 28,
+      "mean_attack_return": 1.515625,
+      "attack_loss": 0.3689761161804199,
+      "defense_loss": 0.2448592334985733
+    },
+    {
+      "update": 29,
+      "mean_attack_return": 1.203125,
+      "attack_loss": 0.48951050639152527,
+      "defense_loss": 0.3903577923774719
+    },
+    {
+      "update": 30,
+      "mean_attack_return": 1.09375,
+      "attack_loss": 0.5012242794036865,
+      "defense_loss": 0.41410261392593384
+    },
+    {
+      "update": 31,
+      "mean_attack_return": 0.890625,
+      "attack_loss": 0.5034446120262146,
+      "defense_loss": 0.4649874269962311
+    },
+    {
+      "update": 32,
+      "mean_attack_return": 0.609375,
+      "attack_loss": 0.44856688380241394,
+      "defense_loss": 0.5024428963661194
+    },
+    {
+      "update": 33,
+      "mean_attack_return": 0.515625,
+      "attack_loss": 0.38783660531044006,
+      "defense_loss": 0.4562540352344513
+    },
+    {
+      "update": 34,
+      "mean_attack_return": 0.390625,
+      "attack_loss": 0.3140774071216583,
+      "defense_loss": 0.3916250765323639
+    },
+    {
+      "update": 35,
+      "mean_attack_return": 0.2109375,
+      "attack_loss": 0.18436938524246216,
+      "defense_loss": 0.30450963973999023
+    },
+    {
+      "update": 36,
+      "mean_attack_return": 0.265625,
+      "attack_loss": 0.24860049784183502,
+      "defense_loss": 0.23344838619232178
+    },
+    {
+      "update": 37,
+      "mean_attack_return": 0.1640625,
+      "attack_loss": 0.1527477353811264,
+      "defense_loss": 0.14131389558315277
+    },
+    {
+      "update": 38,
+      "mean_attack_return": 0.1171875,
+      "attack_loss": 0.10547760128974915,
+      "defense_loss": 0.07811001688241959
+    },
+    {
+      "update": 39,
+      "mean_attack_return": 0.1328125,
+      "attack_loss": 0.13200414180755615,
+      "defense_loss": 0.09495315700769424
+    },
+    {
+      "update": 40,
+      "mean_attack_return": 0.0703125,
+      "attack_loss": 0.06393220275640488,
+      "defense_loss": 0.02838546596467495
+    },
+    {
+      "update": 41,
+      "mean_attack_return": 0.0859375,
+      "attack_loss": 0.07592403888702393,
+      "defense_loss": 0.04693181812763214
+    },
+    {
+      "update": 42,
+      "mean_attack_return": 0.0234375,
+      "attack_loss": 0.013024714775383472,
+      "defense_loss": 0.005971264094114304
+    },
+    {
+      "update": 43,
+      "mean_attack_return": 0.03125,
+      "attack_loss": 0.03001929260790348,
+      "defense_loss": 0.007364945486187935
+    },
+    {
+      "update": 44,
+      "mean_attack_return": 0.046875,
+      "attack_loss": 0.04058115556836128,
+      "defense_loss": 0.04430937021970749
+    },
+    {
+      "update": 45,
+      "mean_attack_return": 0.03125,
+      "attack_loss": 0.01569816656410694,
+      "defense_loss": 0.03899663686752319
+    },
+    {
+      "update": 46,
+      "mean_attack_return": 0.0859375,
+      "attack_loss": 0.07835545390844345,
+      "defense_loss": 0.09091950207948685
+    },
+    {
+      "update": 47,
+      "mean_attack_return": 0.046875,
+      "attack_loss": 0.0322338230907917,
+      "defense_loss": 0.046732716262340546
+    },
+    {
+      "update": 48,
+      "mean_attack_return": 0.1015625,
+      "attack_loss": 0.04289770498871803,
+      "defense_loss": 0.09236807376146317
+    },
+    {
+      "update": 49,
+      "mean_attack_return": 0.140625,
+      "attack_loss": 0.09935817867517471,
+      "defense_loss": 0.15483291447162628
+    }
+  ],
+  "worst_case_best_response_damage": 2.9968065748689696,
+  "limitations": "One-state game; no claim of operational cybersecurity effectiveness."
+}

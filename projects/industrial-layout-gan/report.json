@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "seed": 7,
+  "steps": 600,
+  "losses": {
+    "generator_loss": 0.6993192434310913,
+    "discriminator_loss": 1.3730731010437012
+  },
+  "gan_feasible_rate": 1.0,
+  "random_feasible_rate": 0.19,
+  "mean_coordinate_std": 0.013472230173647404,
+  "svg_source": "generated",
+  "limitations": "Short training; feasibility is not guaranteed; condition fidelity not yet evaluated."
+}

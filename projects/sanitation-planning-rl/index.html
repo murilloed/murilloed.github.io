@@ -1,0 +1,50 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Planejamento de expansão de redes com orçamento limitado."/><title>Saneamento inteligente · Murillo Carvalho</title><link rel="stylesheet" href="../../styles.css?v=5"/><link rel="stylesheet" href="../../projects.css?v=1"/><script src="../../script.js?v=4" defer></script><script src="../../projects.js?v=1" defer></script></head>
+    <body class="project-detail"><a class="skip-link" href="#content">Ir ao conteúdo</a><header class="topbar"><a class="logo" href="../../#home">Murillo<span>Ed</span></a><nav aria-label="Menu"><a href="../../#projects" data-pt="← Todos os projetos" data-en="← All projects">← Todos os projetos</a></nav><div class="header-tools"><button class="lang-toggle" type="button">EN / PT</button><a class="github-button" href="https://github.com/murilloed" target="_blank" rel="noreferrer">GitHub ↗</a></div></header>
+    <main id="content" class="shell"><section class="project-detail-hero"><div><span class="section-index">PROJECT 01 / RESEARCH & ENGINEERING</span><h1 class="" data-pt="Saneamento inteligente" data-en="Intelligent sanitation">Saneamento inteligente</h1><p class="project-lead" data-pt="Planejamento de expansão de redes com orçamento limitado." data-en="Budget-constrained network expansion planning.">Planejamento de expansão de redes com orçamento limitado.</p><div class="project-status"><i></i><span class="" data-pt="MVP executável · v0.1.0" data-en="Executable MVP · v0.1.0">MVP executável · v0.1.0</span></div><div class="project-tags"><span>Python</span><span>MCTS</span><span>Policy / Value</span><span>Grafos</span></div><div class="hero-actions"><a class="button primary" href="https://github.com/murilloed/sanitation-planning-rl" target="_blank" rel="noreferrer" data-pt="Ver no GitHub ↗" data-en="View on GitHub ↗">Ver no GitHub ↗</a><a class="button ghost" href="source.zip" download data-pt="Baixar código ↓" data-en="Download code ↓">Baixar código ↓</a><a class="button ghost" href="report.json" data-pt="Resultados JSON ↗" data-en="JSON results ↗">Resultados JSON ↗</a></div></div><img class="detail-cover" src="../../assets/projects/sanitation-planning-rl.svg" alt="" width="640" height="360"/></section>
+    <div class="project-evidence"><div><strong>110</strong><span class="" data-pt="demanda atendida · MCTS" data-en="served demand · MCTS">demanda atendida · MCTS</span></div><div><strong>01</strong><span class="" data-pt="execução documentada" data-en="documented run">execução documentada</span></div><div><strong>MIT</strong><span class="" data-pt="código aberto" data-en="open source">código aberto</span></div></div>
+    <p class="project-provenance" data-pt="Estudo independente com dados sintéticos, inspirado em experiências setoriais do autor. Não representa entrega ou endosso de clientes. Métricas desta execução não demonstram desempenho em produção." data-en="Independent study with synthetic data, inspired by the author's sector experience. Not a client delivery or endorsement. Run metrics do not establish production performance.">Estudo independente com dados sintéticos, inspirado em experiências setoriais do autor. Não representa entrega ou endosso de clientes. Métricas desta execução não demonstram desempenho em produção.</p>
+    <div class="project-detail-grid"><section class="project-panel"><h2 class="" data-pt="Problema e contexto" data-en="Problem &amp; context">Problema e contexto</h2><p>Planejamento de expansão de redes com orçamento limitado.</p><span class="mini-label">ANA · Águas Brasil · BiomaData</span><h3 class="" data-pt="Implementação atual" data-en="Current implementation">Implementação atual</h3><p>Ambiente de expansão em grafo; baseline guloso; MCTS com seleção UCT, expansão, rollout e retropropagação; busca exata para pequenas instâncias; rede residual com saídas de política e valor treinada por exemplos do solver.</p></section><section class="project-panel"><h2 class="" data-pt="Próximas etapas" data-en="Next steps">Próximas etapas</h2><p>Guiar MCTS por priors e valor aprendidos; comparar PPO; introduzir terreno raster real; validação hidráulica; agente adversário com restrições explícitas.</p><h3 class="" data-pt="Reproduza o experimento" data-en="Reproduce the experiment">Reproduza o experimento</h3><pre><code>python -m pip install -e .
+python -m sanplan.demo
+python -m unittest discover -s tests -v</code></pre></section></div>
+    <section class="project-panel interactive-lab"><span class="mini-label">INTERACTIVE / SYNTHETIC</span><h2 data-pt="Explore o orçamento" data-en="Explore the budget">Explore o orçamento</h2><p data-pt="Altere o orçamento e veja a melhor expansão neste pequeno grafo. Esta demonstração usa enumeração exata no navegador." data-en="Adjust the budget to explore the optimal expansion on this small graph. This browser demo uses exact enumeration.">Altere o orçamento e veja a melhor expansão neste pequeno grafo. Esta demonstração usa enumeração exata no navegador.</p><label for="budget" data-pt="Orçamento em unidades sintéticas" data-en="Budget in synthetic units">Orçamento em unidades sintéticas</label><div class="budget-control"><input id="budget" type="range" min="2" max="16" value="8"/><output id="budget-value">8</output></div><svg id="network-demo" viewBox="0 0 600 300" role="img" aria-label="Network expansion"></svg><p id="network-result" aria-live="polite"></p></section><section class="project-panel result-panel"><h2 class="" data-pt="Resultados e limites" data-en="Results &amp; limitations">Resultados e limites</h2><p data-pt="Relatório da execução registrada. Consulte os parâmetros e os resultados negativos antes de interpretar as métricas." data-en="Recorded run report. Check parameters and negative results before interpreting metrics.">Relatório da execução registrada. Consulte os parâmetros e os resultados negativos antes de interpretar as métricas.</p><details><summary data-pt="Ver relatório completo" data-en="View full report">Ver relatório completo</summary><pre><code>{
+  &quot;synthetic&quot;: true,
+  &quot;seed&quot;: 7,
+  &quot;iterations&quot;: 200,
+  &quot;budget&quot;: 8,
+  &quot;solutions&quot;: {
+    &quot;greedy&quot;: {
+      &quot;edges&quot;: [
+        0,
+        1,
+        2
+      ],
+      &quot;cost&quot;: 8,
+      &quot;served_demand&quot;: 110
+    },
+    &quot;mcts&quot;: {
+      &quot;edges&quot;: [
+        1,
+        3,
+        4
+      ],
+      &quot;cost&quot;: 6,
+      &quot;served_demand&quot;: 110
+    },
+    &quot;exact&quot;: {
+      &quot;edges&quot;: [
+        1,
+        3,
+        4
+      ],
+      &quot;cost&quot;: 6,
+      &quot;served_demand&quot;: 110
+    }
+  },
+  &quot;root_visits&quot;: 200,
+  &quot;policy_value&quot;: {
+    &quot;training_states&quot;: 6,
+    &quot;training_loss&quot;: 5.851035166415386e-05,
+    &quot;evaluation&quot;: &quot;training fit only; no out-of-instance generalization claim&quot;
+  }
+}</code></pre></details></section>
+    <a class="button ghost back-projects" href="../../#projects" data-pt="← Voltar aos projetos" data-en="← Back to projects">← Voltar aos projetos</a></main><footer><div class="shell copyright"><span>© <span id="year">2026</span> Murillo Carvalho</span><a href="../../#projects" data-pt="Projetos" data-en="Projects">Projetos</a></div></footer></body></html>

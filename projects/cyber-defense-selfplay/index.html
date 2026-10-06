@@ -1,0 +1,338 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Jogo abstrato entre agentes de ataque e defesa."/><title>Defesa cibernética em self-play · Murillo Carvalho</title><link rel="stylesheet" href="../../styles.css?v=5"/><link rel="stylesheet" href="../../projects.css?v=1"/><script src="../../script.js?v=4" defer></script><script src="../../projects.js?v=1" defer></script></head>
+    <body class="project-detail"><a class="skip-link" href="#content">Ir ao conteúdo</a><header class="topbar"><a class="logo" href="../../#home">Murillo<span>Ed</span></a><nav aria-label="Menu"><a href="../../#projects" data-pt="← Todos os projetos" data-en="← All projects">← Todos os projetos</a></nav><div class="header-tools"><button class="lang-toggle" type="button">EN / PT</button><a class="github-button" href="https://github.com/murilloed" target="_blank" rel="noreferrer">GitHub ↗</a></div></header>
+    <main id="content" class="shell"><section class="project-detail-hero"><div><span class="section-index">PROJECT 05 / RESEARCH & ENGINEERING</span><h1 class="" data-pt="Defesa cibernética em self-play" data-en="Cyber defense self-play">Defesa cibernética em self-play</h1><p class="project-lead" data-pt="Jogo abstrato entre agentes de ataque e defesa." data-en="Abstract attacker–defender multi-agent game.">Jogo abstrato entre agentes de ataque e defesa.</p><div class="project-status"><i></i><span class="" data-pt="MVP executável · v0.1.0" data-en="Executable MVP · v0.1.0">MVP executável · v0.1.0</span></div><div class="project-tags"><span>PyTorch</span><span>PPO</span><span>Self-play</span><span>MDP</span></div><div class="hero-actions"><a class="button primary" href="https://github.com/murilloed/cyber-defense-selfplay" target="_blank" rel="noreferrer" data-pt="Ver no GitHub ↗" data-en="View on GitHub ↗">Ver no GitHub ↗</a><a class="button ghost" href="source.zip" download data-pt="Baixar código ↓" data-en="Download code ↓">Baixar código ↓</a><a class="button ghost" href="report.json" data-pt="Resultados JSON ↗" data-en="JSON results ↗">Resultados JSON ↗</a></div></div><img class="detail-cover" src="../../assets/projects/cyber-defense-selfplay.svg" alt="" width="640" height="360"/></section>
+    <div class="project-evidence"><div><strong>50</strong><span class="" data-pt="atualizações PPO" data-en="PPO updates">atualizações PPO</span></div><div><strong>01</strong><span class="" data-pt="execução documentada" data-en="documented run">execução documentada</span></div><div><strong>MIT</strong><span class="" data-pt="código aberto" data-en="open source">código aberto</span></div></div>
+    <p class="project-provenance" data-pt="Estudo independente com dados sintéticos, inspirado em experiências setoriais do autor. Não representa entrega ou endosso de clientes. Métricas desta execução não demonstram desempenho em produção." data-en="Independent study with synthetic data, inspired by the author's sector experience. Not a client delivery or endorsement. Run metrics do not establish production performance.">Estudo independente com dados sintéticos, inspirado em experiências setoriais do autor. Não representa entrega ou endosso de clientes. Métricas desta execução não demonstram desempenho em produção.</p>
+    <div class="project-detail-grid"><section class="project-panel"><h2 class="" data-pt="Problema e contexto" data-en="Problem &amp; context">Problema e contexto</h2><p>Jogo abstrato entre agentes de ataque e defesa.</p><span class="mini-label">SenhaSegura · Protege</span><h3 class="" data-pt="Implementação atual" data-en="Current implementation">Implementação atual</h3><p>Jogo abstrato zero-sum de alocação de ataque/defesa; duas políticas Actor-Critic; coleta on-policy simultânea; PPO clipped com value loss e entropia; confronto com checkpoints e política uniforme.</p></section><section class="project-panel"><h2 class="" data-pt="Próximas etapas" data-en="Next steps">Próximas etapas</h2><p>MDP multiestado com histórico de incidentes sintético; population-based self-play; GAE; avaliação contra oponentes congelados diversos; treinamento distribuído; não executa ataques reais.</p><h3 class="" data-pt="Reproduza o experimento" data-en="Reproduce the experiment">Reproduza o experimento</h3><pre><code>python -m pip install -e .
+python -m cyberplay.demo
+python -m unittest discover -s tests -v</code></pre></section></div>
+    <section class="project-panel result-panel"><h2 class="" data-pt="Resultados e limites" data-en="Results &amp; limitations">Resultados e limites</h2><p data-pt="Relatório da execução registrada. Consulte os parâmetros e os resultados negativos antes de interpretar as métricas." data-en="Recorded run report. Check parameters and negative results before interpreting metrics.">Relatório da execução registrada. Consulte os parâmetros e os resultados negativos antes de interpretar as métricas.</p><details><summary data-pt="Ver relatório completo" data-en="View full report">Ver relatório completo</summary><pre><code>{
+  &quot;synthetic&quot;: true,
+  &quot;seed&quot;: 7,
+  &quot;updates&quot;: 50,
+  &quot;game&quot;: &quot;one-step zero-sum MDP; abstract allocation&quot;,
+  &quot;defense_policy&quot;: [
+    0.00024131237296387553,
+    0.9986942410469055,
+    0.0010644750436767936
+  ],
+  &quot;evaluation&quot;: {
+    &quot;current&quot;: {
+      &quot;mean_damage&quot;: 0.1850000023841858
+    },
+    &quot;uniform&quot;: {
+      &quot;mean_damage&quot;: 1.3229999542236328
+    },
+    &quot;checkpoint_0&quot;: {
+      &quot;mean_damage&quot;: 1.6790000200271606
+    },
+    &quot;checkpoint_1&quot;: {
+      &quot;mean_damage&quot;: 0.04600000008940697
+    }
+  },
+  &quot;history&quot;: [
+    {
+      &quot;update&quot;: 0,
+      &quot;mean_attack_return&quot;: 1.375,
+      &quot;attack_loss&quot;: 1.8687726259231567,
+      &quot;defense_loss&quot;: 1.4268423318862915
+    },
+    {
+      &quot;update&quot;: 1,
+      &quot;mean_attack_return&quot;: 1.3515625,
+      &quot;attack_loss&quot;: 1.6306735277175903,
+      &quot;defense_loss&quot;: 1.268409252166748
+    },
+    {
+      &quot;update&quot;: 2,
+      &quot;mean_attack_return&quot;: 1.25,
+      &quot;attack_loss&quot;: 1.252996802330017,
+      &quot;defense_loss&quot;: 0.9841611981391907
+    },
+    {
+      &quot;update&quot;: 3,
+      &quot;mean_attack_return&quot;: 1.109375,
+      &quot;attack_loss&quot;: 0.9536432027816772,
+      &quot;defense_loss&quot;: 0.7510227560997009
+    },
+    {
+      &quot;update&quot;: 4,
+      &quot;mean_attack_return&quot;: 0.8828125,
+      &quot;attack_loss&quot;: 0.6890233755111694,
+      &quot;defense_loss&quot;: 0.5904340744018555
+    },
+    {
+      &quot;update&quot;: 5,
+      &quot;mean_attack_return&quot;: 1.09375,
+      &quot;attack_loss&quot;: 0.7801209092140198,
+      &quot;defense_loss&quot;: 0.6669830679893494
+    },
+    {
+      &quot;update&quot;: 6,
+      &quot;mean_attack_return&quot;: 0.96875,
+      &quot;attack_loss&quot;: 0.586477518081665,
+      &quot;defense_loss&quot;: 0.5416710376739502
+    },
+    {
+      &quot;update&quot;: 7,
+      &quot;mean_attack_return&quot;: 0.9609375,
+      &quot;attack_loss&quot;: 0.49374517798423767,
+      &quot;defense_loss&quot;: 0.505120038986206
+    },
+    {
+      &quot;update&quot;: 8,
+      &quot;mean_attack_return&quot;: 0.859375,
+      &quot;attack_loss&quot;: 0.5330179333686829,
+      &quot;defense_loss&quot;: 0.5410895347595215
+    },
+    {
+      &quot;update&quot;: 9,
+      &quot;mean_attack_return&quot;: 0.875,
+      &quot;attack_loss&quot;: 0.43797796964645386,
+      &quot;defense_loss&quot;: 0.48237061500549316
+    },
+    {
+      &quot;update&quot;: 10,
+      &quot;mean_attack_return&quot;: 0.953125,
+      &quot;attack_loss&quot;: 0.3911813497543335,
+      &quot;defense_loss&quot;: 0.45445412397384644
+    },
+    {
+      &quot;update&quot;: 11,
+      &quot;mean_attack_return&quot;: 1.2109375,
+      &quot;attack_loss&quot;: 0.37440410256385803,
+      &quot;defense_loss&quot;: 0.47781023383140564
+    },
+    {
+      &quot;update&quot;: 12,
+      &quot;mean_attack_return&quot;: 1.265625,
+      &quot;attack_loss&quot;: 0.32081422209739685,
+      &quot;defense_loss&quot;: 0.4391585886478424
+    },
+    {
+      &quot;update&quot;: 13,
+      &quot;mean_attack_return&quot;: 1.421875,
+      &quot;attack_loss&quot;: 0.32421553134918213,
+      &quot;defense_loss&quot;: 0.4334946274757385
+    },
+    {
+      &quot;update&quot;: 14,
+      &quot;mean_attack_return&quot;: 1.3125,
+      &quot;attack_loss&quot;: 0.31963223218917847,
+      &quot;defense_loss&quot;: 0.4214588403701782
+    },
+    {
+      &quot;update&quot;: 15,
+      &quot;mean_attack_return&quot;: 1.4140625,
+      &quot;attack_loss&quot;: 0.2724609076976776,
+      &quot;defense_loss&quot;: 0.362750768661499
+    },
+    {
+      &quot;update&quot;: 16,
+      &quot;mean_attack_return&quot;: 1.7265625,
+      &quot;attack_loss&quot;: 0.19217655062675476,
+      &quot;defense_loss&quot;: 0.22844591736793518
+    },
+    {
+      &quot;update&quot;: 17,
+      &quot;mean_attack_return&quot;: 1.8046875,
+      &quot;attack_loss&quot;: 0.17346829175949097,
+      &quot;defense_loss&quot;: 0.1777113527059555
+    },
+    {
+      &quot;update&quot;: 18,
+      &quot;mean_attack_return&quot;: 1.8828125,
+      &quot;attack_loss&quot;: 0.0931345596909523,
+      &quot;defense_loss&quot;: 0.10022450238466263
+    },
+    {
+      &quot;update&quot;: 19,
+      &quot;mean_attack_return&quot;: 1.8515625,
+      &quot;attack_loss&quot;: 0.08686938881874084,
+      &quot;defense_loss&quot;: 0.12467500567436218
+    },
+    {
+      &quot;update&quot;: 20,
+      &quot;mean_attack_return&quot;: 1.875,
+      &quot;attack_loss&quot;: 0.06519036740064621,
+      &quot;defense_loss&quot;: 0.09558853507041931
+    },
+    {
+      &quot;update&quot;: 21,
+      &quot;mean_attack_return&quot;: 1.796875,
+      &quot;attack_loss&quot;: 0.17654290795326233,
+      &quot;defense_loss&quot;: 0.18777243793010712
+    },
+    {
+      &quot;update&quot;: 22,
+      &quot;mean_attack_return&quot;: 1.8828125,
+      &quot;attack_loss&quot;: 0.111225925385952,
+      &quot;defense_loss&quot;: 0.0834961086511612
+    },
+    {
+      &quot;update&quot;: 23,
+      &quot;mean_attack_return&quot;: 1.8828125,
+      &quot;attack_loss&quot;: 0.09128337353467941,
+      &quot;defense_loss&quot;: 0.05362753942608833
+    },
+    {
+      &quot;update&quot;: 24,
+      &quot;mean_attack_return&quot;: 1.828125,
+      &quot;attack_loss&quot;: 0.15466976165771484,
+      &quot;defense_loss&quot;: 0.09754786640405655
+    },
+    {
+      &quot;update&quot;: 25,
+      &quot;mean_attack_return&quot;: 1.7890625,
+      &quot;attack_loss&quot;: 0.19237001240253448,
+      &quot;defense_loss&quot;: 0.14413565397262573
+    },
+    {
+      &quot;update&quot;: 26,
+      &quot;mean_attack_return&quot;: 1.609375,
+      &quot;attack_loss&quot;: 0.305717796087265,
+      &quot;defense_loss&quot;: 0.22108194231987
+    },
+    {
+      &quot;update&quot;: 27,
+      &quot;mean_attack_return&quot;: 1.53125,
+      &quot;attack_loss&quot;: 0.3589746356010437,
+      &quot;defense_loss&quot;: 0.25253787636756897
+    },
+    {
+      &quot;update&quot;: 28,
+      &quot;mean_attack_return&quot;: 1.515625,
+      &quot;attack_loss&quot;: 0.3689761161804199,
+      &quot;defense_loss&quot;: 0.2448592334985733
+    },
+    {
+      &quot;update&quot;: 29,
+      &quot;mean_attack_return&quot;: 1.203125,
+      &quot;attack_loss&quot;: 0.48951050639152527,
+      &quot;defense_loss&quot;: 0.3903577923774719
+    },
+    {
+      &quot;update&quot;: 30,
+      &quot;mean_attack_return&quot;: 1.09375,
+      &quot;attack_loss&quot;: 0.5012242794036865,
+      &quot;defense_loss&quot;: 0.41410261392593384
+    },
+    {
+      &quot;update&quot;: 31,
+      &quot;mean_attack_return&quot;: 0.890625,
+      &quot;attack_loss&quot;: 0.5034446120262146,
+      &quot;defense_loss&quot;: 0.4649874269962311
+    },
+    {
+      &quot;update&quot;: 32,
+      &quot;mean_attack_return&quot;: 0.609375,
+      &quot;attack_loss&quot;: 0.44856688380241394,
+      &quot;defense_loss&quot;: 0.5024428963661194
+    },
+    {
+      &quot;update&quot;: 33,
+      &quot;mean_attack_return&quot;: 0.515625,
+      &quot;attack_loss&quot;: 0.38783660531044006,
+      &quot;defense_loss&quot;: 0.4562540352344513
+    },
+    {
+      &quot;update&quot;: 34,
+      &quot;mean_attack_return&quot;: 0.390625,
+      &quot;attack_loss&quot;: 0.3140774071216583,
+      &quot;defense_loss&quot;: 0.3916250765323639
+    },
+    {
+      &quot;update&quot;: 35,
+      &quot;mean_attack_return&quot;: 0.2109375,
+      &quot;attack_loss&quot;: 0.18436938524246216,
+      &quot;defense_loss&quot;: 0.30450963973999023
+    },
+    {
+      &quot;update&quot;: 36,
+      &quot;mean_attack_return&quot;: 0.265625,
+      &quot;attack_loss&quot;: 0.24860049784183502,
+      &quot;defense_loss&quot;: 0.23344838619232178
+    },
+    {
+      &quot;update&quot;: 37,
+      &quot;mean_attack_return&quot;: 0.1640625,
+      &quot;attack_loss&quot;: 0.1527477353811264,
+      &quot;defense_loss&quot;: 0.14131389558315277
+    },
+    {
+      &quot;update&quot;: 38,
+      &quot;mean_attack_return&quot;: 0.1171875,
+      &quot;attack_loss&quot;: 0.10547760128974915,
+      &quot;defense_loss&quot;: 0.07811001688241959
+    },
+    {
+      &quot;update&quot;: 39,
+      &quot;mean_attack_return&quot;: 0.1328125,
+      &quot;attack_loss&quot;: 0.13200414180755615,
+      &quot;defense_loss&quot;: 0.09495315700769424
+    },
+    {
+      &quot;update&quot;: 40,
+      &quot;mean_attack_return&quot;: 0.0703125,
+      &quot;attack_loss&quot;: 0.06393220275640488,
+      &quot;defense_loss&quot;: 0.02838546596467495
+    },
+    {
+      &quot;update&quot;: 41,
+      &quot;mean_attack_return&quot;: 0.0859375,
+      &quot;attack_loss&quot;: 0.07592403888702393,
+      &quot;defense_loss&quot;: 0.04693181812763214
+    },
+    {
+      &quot;update&quot;: 42,
+      &quot;mean_attack_return&quot;: 0.0234375,
+      &quot;attack_loss&quot;: 0.013024714775383472,
+      &quot;defense_loss&quot;: 0.005971264094114304
+    },
+    {
+      &quot;update&quot;: 43,
+      &quot;mean_attack_return&quot;: 0.03125,
+      &quot;attack_loss&quot;: 0.03001929260790348,
+      &quot;defense_loss&quot;: 0.007364945486187935
+    },
+    {
+      &quot;update&quot;: 44,
+      &quot;mean_attack_return&quot;: 0.046875,
+      &quot;attack_loss&quot;: 0.04058115556836128,
+      &quot;defense_loss&quot;: 0.04430937021970749
+    },
+    {
+      &quot;update&quot;: 45,
+      &quot;mean_attack_return&quot;: 0.03125,
+      &quot;attack_loss&quot;: 0.01569816656410694,
+      &quot;defense_loss&quot;: 0.03899663686752319
+    },
+    {
+      &quot;update&quot;: 46,
+      &quot;mean_attack_return&quot;: 0.0859375,
+      &quot;attack_loss&quot;: 0.07835545390844345,
+      &quot;defense_loss&quot;: 0.09091950207948685
+    },
+    {
+      &quot;update&quot;: 47,
+      &quot;mean_attack_return&quot;: 0.046875,
+      &quot;attack_loss&quot;: 0.0322338230907917,
+      &quot;defense_loss&quot;: 0.046732716262340546
+    },
+    {
+      &quot;update&quot;: 48,
+      &quot;mean_attack_return&quot;: 0.1015625,
+      &quot;attack_loss&quot;: 0.04289770498871803,
+      &quot;defense_loss&quot;: 0.09236807376146317
+    },
+    {
+      &quot;update&quot;: 49,
+      &quot;mean_attack_return&quot;: 0.140625,
+      &quot;attack_loss&quot;: 0.09935817867517471,
+      &quot;defense_loss&quot;: 0.15483291447162628
+    }
+  ],
+  &quot;worst_case_best_response_damage&quot;: 2.9968065748689696,
+  &quot;limitations&quot;: &quot;One-state game; no claim of operational cybersecurity effectiveness.&quot;
+}</code></pre></details></section>
+    <a class="button ghost back-projects" href="../../#projects" data-pt="← Voltar aos projetos" data-en="← Back to projects">← Voltar aos projetos</a></main><footer><div class="shell copyright"><span>© <span id="year">2026</span> Murillo Carvalho</span><a href="../../#projects" data-pt="Projetos" data-en="Projects">Projetos</a></div></footer></body></html>

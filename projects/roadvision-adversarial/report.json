@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "seed": 7,
+  "epochs": 25,
+  "train_images": 160,
+  "test_images": 60,
+  "epsilon_linf": 0.1,
+  "models": {
+    "cnn": {
+      "clean": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "fgsm": {
+        "accuracy": 0.9166666865348816,
+        "macro_f1": 0.916083916083916
+      },
+      "pgd": {
+        "accuracy": 0.6833333373069763,
+        "macro_f1": 0.6480395183698673
+      }
+    },
+    "resnet": {
+      "clean": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "fgsm": {
+        "accuracy": 0.5333333611488342,
+        "macro_f1": 0.4034090909090909
+      },
+      "pgd": {
+        "accuracy": 0.4333333373069763,
+        "macro_f1": 0.3023255813953488
+      }
+    },
+    "resnet_adversarial": {
+      "clean": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "fgsm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "pgd": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      }
+    }
+  }
+}
