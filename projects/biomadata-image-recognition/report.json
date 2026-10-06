@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "training": "none; deterministic baseline",
+  "scenario": "Artificial change in one quadrant; no real environmental event",
+  "result": {
+    "method": "absolute luminance difference",
+    "grid": [
+      32,
+      32
+    ],
+    "threshold": 30,
+    "changed_cells": 256,
+    "total_cells": 1024,
+    "changed_percent": 25.0,
+    "mean_difference": 23.03,
+    "limitation": "Requires aligned images; does not identify wildfires, classify land use or establish legality."
+  }
+}
