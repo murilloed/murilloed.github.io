@@ -126,5 +126,21 @@
       "Paralelismo"
     ],
     "package": "spatialsearch"
+  },
+  {
+    "slug": "biomadata-image-recognition",
+    "title": "BiomaData — reconhecimento de imagens ambientais",
+    "title_en": "BiomaData — environmental image recognition",
+    "category": "vision",
+    "context": "BiomaData · Cerrado",
+    "description": "Análise de imagens de diferentes datas para apoiar o monitoramento ambiental do Cerrado.",
+    "description_en": "Analysis of images from different dates to support environmental monitoring of the Cerrado.",
+    "tags": [
+      "Visão computacional",
+      "Imagens temporais",
+      "GIS",
+      "Validação humana"
+    ],
+    "status": "development"
   }
 ]
