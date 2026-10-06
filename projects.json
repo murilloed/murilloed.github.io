@@ -13,7 +13,14 @@
       "Policy / Value",
       "Grafos"
     ],
-    "package": "sanplan"
+    "package": "sanplan",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "planejamento",
+      "reforco"
+    ]
   },
   {
     "slug": "roadvision-adversarial",
@@ -29,7 +36,13 @@
       "FGSM",
       "PGD"
     ],
-    "package": "roadvision"
+    "package": "roadvision",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "visao-computacional"
+    ]
   },
   {
     "slug": "industrial-layout-gan",
@@ -45,7 +58,14 @@
       "Geometria",
       "SVG"
     ],
-    "package": "layoutgan"
+    "package": "layoutgan",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "visao-computacional",
+      "planejamento"
+    ]
   },
   {
     "slug": "infrastructure-ml-platform",
@@ -61,7 +81,10 @@
       "Spark",
       "AWS"
     ],
-    "package": "mlplatform"
+    "package": "mlplatform",
+    "themes": [
+      "dados-conhecimento"
+    ]
   },
   {
     "slug": "cyber-defense-selfplay",
@@ -77,7 +100,13 @@
       "Self-play",
       "MDP"
     ],
-    "package": "cyberplay"
+    "package": "cyberplay",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "reforco"
+    ]
   },
   {
     "slug": "urban-engineering-graphrag",
@@ -93,7 +122,11 @@
       "Grafos",
       "MongoDB"
     ],
-    "package": "urbanrag"
+    "package": "urbanrag",
+    "themes": [
+      "modelos-ia",
+      "dados-conhecimento"
+    ]
   },
   {
     "slug": "school-space-planner",
@@ -109,7 +142,10 @@
       "MCTS",
       "Restrições"
     ],
-    "package": "schoolplan"
+    "package": "schoolplan",
+    "themes": [
+      "planejamento"
+    ]
   },
   {
     "slug": "spatial-search-rust",
@@ -125,7 +161,10 @@
       "A*",
       "Paralelismo"
     ],
-    "package": "spatialsearch"
+    "package": "spatialsearch",
+    "themes": [
+      "planejamento"
+    ]
   },
   {
     "slug": "biomadata-image-recognition",
@@ -141,7 +180,10 @@
       "GIS",
       "Validação humana"
     ],
-    "status": "development"
+    "status": "development",
+    "themes": [
+      "visao-computacional"
+    ]
   },
   {
     "slug": "ksa-edital-learning",
@@ -157,6 +199,12 @@
       "E5",
       "Aprendizagem supervisionada"
     ],
-    "status": "development"
+    "status": "development",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "dados-conhecimento"
+    ]
   }
 ]
