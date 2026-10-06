@@ -142,5 +142,21 @@
       "Validação humana"
     ],
     "status": "development"
+  },
+  {
+    "slug": "ksa-edital-learning",
+    "title": "IA - KSA - Competency-Based Management",
+    "title_en": "IA - KSA - Competency-Based Management",
+    "category": "data",
+    "context": "IA-KSA · Gestão por competências",
+    "description": "Aprendizagem de máquina para organizar editais e incorporar títulos revisados pelo usuário.",
+    "description_en": "Machine learning to organize recruitment notices and incorporate user-reviewed headings.",
+    "tags": [
+      "JavaScript",
+      "Transformers.js",
+      "E5",
+      "Aprendizagem supervisionada"
+    ],
+    "status": "development"
   }
 ]

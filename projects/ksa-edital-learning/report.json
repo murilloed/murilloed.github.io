@@ -1,0 +1,97 @@
+{
+  "synthetic": true,
+  "encoder": "Xenova/multilingual-e5-small",
+  "encoderFrozen": true,
+  "architecture": [
+    384,
+    24,
+    6
+  ],
+  "epochs": 180,
+  "learningRate": 0.09,
+  "reviewedUpdate": {
+    "submitted": 2,
+    "weightsChanged": true
+  },
+  "examples": {
+    "before": 35,
+    "after": 37,
+    "validation": 4
+  },
+  "validation": {
+    "before": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "rows": [
+        {
+          "text": "Prazo para inscrição no certame demonstrativo",
+          "label": "registration",
+          "source": "confirmado pelo usuário",
+          "predicted": "other",
+          "score": 0.7895517443417189
+        },
+        {
+          "text": "Data de aplicação do exame demonstrativo",
+          "label": "exam",
+          "source": "confirmado pelo usuário",
+          "predicted": "exam",
+          "score": 0.8050542300951687
+        },
+        {
+          "text": "Conteúdos especializados da função demonstrativa",
+          "label": "specific",
+          "source": "confirmado pelo usuário",
+          "predicted": "specific",
+          "score": 0.9355840875430447
+        },
+        {
+          "text": "Conhecimentos comuns aos perfis demonstrativos",
+          "label": "general",
+          "source": "confirmado pelo usuário",
+          "predicted": "general",
+          "score": 0.766525923126034
+        }
+      ]
+    },
+    "after": {
+      "total": 4,
+      "correct": 3,
+      "accuracy": 0.75,
+      "rows": [
+        {
+          "text": "Prazo para inscrição no certame demonstrativo",
+          "label": "registration",
+          "source": "confirmado pelo usuário",
+          "predicted": "registration",
+          "score": 0.8397810847141233
+        },
+        {
+          "text": "Data de aplicação do exame demonstrativo",
+          "label": "exam",
+          "source": "confirmado pelo usuário",
+          "predicted": "exam",
+          "score": 0.73017664454278
+        },
+        {
+          "text": "Conteúdos especializados da função demonstrativa",
+          "label": "specific",
+          "source": "confirmado pelo usuário",
+          "predicted": "specific",
+          "score": 0.9907361354779769
+        },
+        {
+          "text": "Conhecimentos comuns aos perfis demonstrativos",
+          "label": "general",
+          "source": "confirmado pelo usuário",
+          "predicted": "specific",
+          "score": 0.7862590701946334
+        }
+      ]
+    }
+  },
+  "persistence": {
+    "restoredExamples": 37
+  },
+  "limitation": "Tiny synthetic sample; does not establish accuracy on real notices. Imports require review before learning; the encoder is not retrained."
+}
