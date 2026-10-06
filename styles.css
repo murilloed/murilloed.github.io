@@ -135,10 +135,13 @@ h2 { margin:7px 0 0; font-size:clamp(2.2rem,4vw,3.7rem); line-height:1.08; lette
 .book-cover span,.book-cover i { font: .55rem var(--mono); color:var(--cyan); }.book-cover b{font-size:1.2rem;line-height:1.15}.book-cover i{font-style:normal;color:#9eb4ce}
 .article-symbol { display:grid; place-items:center; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle,rgba(45,226,230,.25),transparent 65%); border:1px solid rgba(45,226,230,.35); color:var(--cyan); font:4.5rem var(--mono); }.article-symbol small{display:block;font-size:.5rem;text-transform:uppercase}
 .status { display:inline-block; margin-top:10px; padding:7px 10px; border-radius:6px; background:#1a2c44; color:#adc2dc; font: .62rem var(--mono); }
-.topic-gallery { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
-.topic-card { position:relative; display:grid; grid-template-columns:50px 1fr; align-items:end; min-height:280px; padding:28px; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--panel); }
-.topic-card:before { content:"";position:absolute;inset:0;opacity:.55;background:radial-gradient(circle at 80% 20%,var(--glow),transparent 35%); }
-.topic-card>*{position:relative}.topic-card>span{align-self:start;color:var(--cyan);font:.7rem var(--mono)}.topic-card h3{margin:0;font-size:1.7rem}.topic-card p{margin:6px 0 0;color:var(--muted);font-size:.86rem}.bio{--glow:#0fbf9c}.ai{--glow:#496dff}.code{--glow:#8c7bff}.public{--glow:#1c8cc2}
+.topic-gallery { display:flex; flex-direction:column; gap:0; }
+.topic-card { display:block; min-height:0; padding:20px 0; border:0; border-bottom:1px solid var(--line); border-radius:0; background:none; }
+.topic-card:last-child { border-bottom:0; }
+.topic-card>span { display:none; }
+.topic-card h3 { margin:0; font-size:1.2rem; }
+.topic-card p { margin:6px 0 0; color:var(--muted); font-size:.9rem; }
+
 .about-section { background:linear-gradient(135deg,#112b48,#071526); }
 .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:70px; }.about-copy p{color:#b6c5d9}.about-copy .button{margin-top:14px}
 .profile-links { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
