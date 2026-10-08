@@ -1,0 +1,38 @@
+{
+  "trained_model": false,
+  "method": "deterministic polygon union/intersection; local UTM area",
+  "metric_crs": "EPSG:32723",
+  "boundary": "study_area",
+  "boundary_area_ha": 355.95789248548306,
+  "layers": [
+    {
+      "layer": "observation_zone",
+      "area_ha": 106.78787144657868,
+      "coverage_percent": 30.00014150576357
+    },
+    {
+      "layer": "vegetation",
+      "area_ha": 118.65274127930272,
+      "coverage_percent": 33.33336436251142
+    }
+  ],
+  "pairwise_overlap": [
+    {
+      "layers": [
+        "observation_zone",
+        "vegetation"
+      ],
+      "overlap_ha": 41.52860200725817
+    }
+  ],
+  "study_notes": [
+    "All thematic layers intersect the study boundary."
+  ],
+  "limitations": [
+    "Layer names are user-provided, not inferred land-use classes.",
+    "Coverage of separate layers may overlap; percentages must not be added.",
+    "No ecological/legal diagnosis or automatic change detection.",
+    "Regional planar analysis; projection selection requires review for real projects."
+  ],
+  "synthetic": true
+}

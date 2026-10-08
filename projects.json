@@ -350,5 +350,25 @@
       "dados-conhecimento",
       "planejamento"
     ]
+  },
+  {
+    "slug": "biomadata-shapefile-studio",
+    "title": "BiomaData — Shapefile Studio",
+    "title_en": "BiomaData — Shapefile Studio",
+    "category": "data",
+    "context": "BiomaData · GIS",
+    "description": "Importação de Shapefiles, mapa com camadas e estudo espacial explicável.",
+    "description_en": "Shapefile import, selectable map layers and an explainable spatial study.",
+    "tags": [
+      "Shapefile",
+      "PyProj / Shapely",
+      "Folium / Leaflet",
+      "Streamlit"
+    ],
+    "status": "mvp",
+    "themes": [
+      "geometria-computacional",
+      "dados-conhecimento"
+    ]
   }
 ]
