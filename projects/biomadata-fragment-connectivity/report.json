@@ -1,0 +1,37 @@
+{
+  "synthetic": true,
+  "trained_model": false,
+  "coordinate_system": "local planar meters; reproject geographic data before measuring",
+  "metrics": {
+    "fragments": 4,
+    "candidate_connections": 3,
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "component_count": 1,
+    "minimum_spanning_forest": [
+      {
+        "from": 0,
+        "to": 1,
+        "gap_m": 13.0
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "gap_m": 14.0
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "gap_m": 15.524174696260024
+      }
+    ],
+    "total_gap_m": 42.524174696260026
+  },
+  "limitation": "Euclidean proximity only; links do not establish viable ecological corridors. Ignores roads, species, slope, land use and ecological resistance."
+}

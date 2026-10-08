@@ -309,5 +309,46 @@
       "planejamento",
       "geometria-computacional"
     ]
+  },
+  {
+    "slug": "biomadata-environmental-overlay",
+    "title": "BiomaData — sobreposição de áreas ambientais",
+    "title_en": "BiomaData — environmental area overlay",
+    "category": "spatial",
+    "context": "BiomaData · protótipo independente",
+    "description": "Medir cobertura ambiental sem contar áreas sobrepostas mais de uma vez.",
+    "description_en": "Measure environmental coverage without counting overlapping areas more than once.",
+    "tags": [
+      "Python",
+      "Shapely / GEOS",
+      "BiomaData",
+      "Overlay"
+    ],
+    "status": "mvp",
+    "themes": [
+      "geometria-computacional",
+      "dados-conhecimento"
+    ]
+  },
+  {
+    "slug": "biomadata-fragment-connectivity",
+    "title": "BiomaData — conectividade entre fragmentos",
+    "title_en": "BiomaData — vegetation fragment connectivity",
+    "category": "spatial",
+    "context": "BiomaData · protótipo independente",
+    "description": "Explorar a proximidade entre fragmentos de vegetação e suas possíveis ligações.",
+    "description_en": "Explore proximity between vegetation fragments and their possible links.",
+    "tags": [
+      "Python",
+      "Shapely / GEOS",
+      "BiomaData",
+      "Grafos / Kruskal"
+    ],
+    "status": "mvp",
+    "themes": [
+      "geometria-computacional",
+      "dados-conhecimento",
+      "planejamento"
+    ]
   }
 ]

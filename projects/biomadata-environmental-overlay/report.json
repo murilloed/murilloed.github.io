@@ -1,0 +1,12 @@
+{
+  "synthetic": true,
+  "trained_model": false,
+  "coordinate_system": "local planar meters; reproject geographic data before measuring",
+  "metrics": {
+    "covered_area_m2": 3200.0,
+    "coverage_percent": 45.714285714285715,
+    "summed_intersections_m2": 3575.0,
+    "overlap_excess_m2": 375.0
+  },
+  "limitation": "Area intersection and union only; no official conservation status, real deforestation detection or legal conclusion."
+}
