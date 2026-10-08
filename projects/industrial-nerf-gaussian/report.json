@@ -1,0 +1,17 @@
+{
+  "synthetic": true,
+  "trained_model": false,
+  "illustrative_comparison": {
+    "candidate_a": {
+      "mse": 0.0024999999999999988,
+      "psnr_db": 26.020599913279625,
+      "perfect_match": false
+    },
+    "candidate_b": {
+      "mse": 0.009999999999999995,
+      "psnr_db": 20.000000000000004,
+      "perfect_match": false
+    }
+  },
+  "limitation": "Candidates are synthetic pixel arrays, not outputs from NeRF or Gaussian Splatting. No method ranking is established."
+}

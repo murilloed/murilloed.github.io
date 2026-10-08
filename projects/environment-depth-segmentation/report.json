@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "trained_model": false,
+  "classes": {
+    "pavement": {
+      "pixels": 4,
+      "coverage_percent": 50.0,
+      "mean_relative_depth": 0.25
+    },
+    "vegetation": {
+      "pixels": 2,
+      "coverage_percent": 25.0,
+      "mean_relative_depth": 0.7
+    },
+    "water": {
+      "pixels": 2,
+      "coverage_percent": 25.0,
+      "mean_relative_depth": 0.5
+    }
+  },
+  "limitation": "Synthetic labels and depth; not model accuracy. Relative depth is not distance in meters."
+}

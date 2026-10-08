@@ -206,5 +206,88 @@
       "redes-neurais",
       "dados-conhecimento"
     ]
+  },
+  {
+    "slug": "infrastructure-photogrammetry",
+    "title": "Inspeção digital de infraestrutura",
+    "title_en": "Digital infrastructure inspection",
+    "category": "vision",
+    "context": "Protótipo independente",
+    "description": "Reconstruir estruturas a partir de fotografias para apoiar inspeções e medições.",
+    "description_en": "Reconstruct structures from photographs to support inspection and measurement.",
+    "tags": [
+      "Fotogrametria",
+      "Reconstrução 3D",
+      "Python"
+    ],
+    "status": "prototype",
+    "themes": [
+      "visao-computacional",
+      "planejamento",
+      "reconstrucao-3d"
+    ]
+  },
+  {
+    "slug": "erosion-sfm-colmap",
+    "title": "Mapeamento 3D de áreas com erosão",
+    "title_en": "3D mapping of erosion areas",
+    "category": "vision",
+    "context": "Protótipo independente",
+    "description": "Organizar a reconstrução de áreas com erosão para estudar sua geometria.",
+    "description_en": "Organize reconstruction of erosion areas to study their geometry.",
+    "tags": [
+      "SfM",
+      "COLMAP",
+      "Python"
+    ],
+    "status": "prototype",
+    "themes": [
+      "visao-computacional",
+      "planejamento",
+      "reconstrucao-3d"
+    ]
+  },
+  {
+    "slug": "industrial-nerf-gaussian",
+    "title": "Visita virtual a instalações industriais",
+    "title_en": "Virtual industrial facility tour",
+    "category": "vision",
+    "context": "Protótipo independente",
+    "description": "Comparar representações de uma instalação para visitas virtuais.",
+    "description_en": "Compare scene representations of a facility for virtual tours.",
+    "tags": [
+      "NeRF",
+      "3D Gaussian Splatting",
+      "Nerfstudio"
+    ],
+    "status": "prototype",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "visao-computacional",
+      "reconstrucao-3d"
+    ]
+  },
+  {
+    "slug": "environment-depth-segmentation",
+    "title": "Profundidade e segmentação de vias e ambientes",
+    "title_en": "Road and environmental depth and segmentation",
+    "category": "vision",
+    "context": "Protótipo independente",
+    "description": "Separar regiões da cena e comparar sua profundidade relativa.",
+    "description_en": "Separate scene regions and compare their relative depth.",
+    "tags": [
+      "Profundidade",
+      "Segmentação",
+      "Transformers"
+    ],
+    "status": "prototype",
+    "themes": [
+      "machine-learning",
+      "modelos-ia",
+      "redes-neurais",
+      "visao-computacional"
+    ]
   }
 ]

@@ -1,0 +1,8 @@
+{
+  "synthetic": true,
+  "points": 5,
+  "max_position_error": 0.0,
+  "units": "synthetic calibrated units",
+  "trained_model": false,
+  "limitation": "Known cameras and exact correspondences; not reconstruction from real photographs."
+}

@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "metrics": {
+    "points": 2,
+    "mean_reprojection_error_px": 0.6000000000000001,
+    "observations": 5
+  },
+  "trained_model": false,
+  "limitation": "Audit only; does not estimate camera poses or verify erosion in real terrain."
+}
