@@ -289,5 +289,25 @@
       "redes-neurais",
       "visao-computacional"
     ]
+  },
+  {
+    "slug": "terrain-layout-geometry",
+    "title": "Geometria computacional para terrenos",
+    "title_en": "Computational geometry for land layouts",
+    "category": "spatial",
+    "context": "Geometria e viabilidade · experimento independente",
+    "description": "Recuos, implantação sem sobreposição e comparação de alternativas em um terreno sintético.",
+    "description_en": "Setbacks, collision-free building placement and comparison of alternatives on a synthetic site.",
+    "tags": [
+      "Python",
+      "Shapely / GEOS",
+      "Geometria",
+      "Otimização espacial"
+    ],
+    "status": "mvp",
+    "themes": [
+      "planejamento",
+      "geometria-computacional"
+    ]
   }
 ]

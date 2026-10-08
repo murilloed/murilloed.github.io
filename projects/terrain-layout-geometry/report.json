@@ -1,0 +1,43 @@
+{
+  "synthetic": true,
+  "trained_model": false,
+  "coordinate_system": "local planar meters, synthetic site",
+  "parameters": {
+    "setback_m": 4,
+    "building_size_m": [
+      12,
+      8
+    ],
+    "gap_m": 3,
+    "grid_step_m": 4,
+    "max_coverage": 0.45,
+    "max_buildings": 12
+  },
+  "terrain_area_m2": 2921.0,
+  "feasible_area_m2": 2049.0,
+  "alternatives": [
+    {
+      "name": "south_first",
+      "count": 11,
+      "occupied_area": 1056.0,
+      "coverage": 0.36152002738788086,
+      "mean_center_distance": 18.688224829803037
+    },
+    {
+      "name": "west_first",
+      "count": 12,
+      "occupied_area": 1152.0,
+      "coverage": 0.39438548442314275,
+      "mean_center_distance": 18.44053453041084
+    },
+    {
+      "name": "center_first",
+      "count": 9,
+      "occupied_area": 864.0,
+      "coverage": 0.2957891133173571,
+      "mean_center_distance": 16.140093568112025
+    }
+  ],
+  "selected": "west_first",
+  "limitation": "Greedy grid search; not a global optimum or legal/engineering approval. Uniform setbacks only. No roads, terrain elevation, fire access or BIM export."
+}
