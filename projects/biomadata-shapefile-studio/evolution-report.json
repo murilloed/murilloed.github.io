@@ -1,0 +1,181 @@
+{
+  "synthetic": true,
+  "trained_model": false,
+  "study": {
+    "trained_model": false,
+    "method": "deterministic polygon union/intersection; local UTM area",
+    "metric_crs": "EPSG:32723",
+    "spatial_index": {
+      "type": "STRtree",
+      "intersecting_pairs": 8,
+      "possible_pairs": 10
+    },
+    "boundary": "study_area",
+    "boundary_area_ha": 355.95789248548306,
+    "layers": [
+      {
+        "layer": "observation_zone",
+        "geometry_type": "Polygon",
+        "area_ha": 106.78787144657868,
+        "coverage_percent": 30.00014150576357,
+        "clipped_length_m": null,
+        "points_inside": null
+      },
+      {
+        "layer": "vegetation",
+        "geometry_type": "Polygon",
+        "area_ha": 118.65274127930272,
+        "coverage_percent": 33.33336436251142,
+        "clipped_length_m": null,
+        "points_inside": null
+      },
+      {
+        "layer": "vegetation_before",
+        "geometry_type": "Polygon",
+        "area_ha": 118.65256201710966,
+        "coverage_percent": 33.33331400200619,
+        "clipped_length_m": null,
+        "points_inside": null
+      },
+      {
+        "layer": "monitoring_points",
+        "geometry_type": "Point",
+        "area_ha": 0.0,
+        "coverage_percent": 0.0,
+        "clipped_length_m": null,
+        "points_inside": 1
+      },
+      {
+        "layer": "access_line",
+        "geometry_type": "LineString",
+        "area_ha": 0.0,
+        "coverage_percent": 0.0,
+        "clipped_length_m": 2321.622851038883,
+        "points_inside": null
+      }
+    ],
+    "pairwise_overlap": [
+      {
+        "layers": [
+          "observation_zone",
+          "vegetation_before"
+        ],
+        "overlap_ha": 21.35755347341665
+      },
+      {
+        "layers": [
+          "observation_zone",
+          "vegetation"
+        ],
+        "overlap_ha": 41.52860200725817
+      },
+      {
+        "layers": [
+          "observation_zone",
+          "access_line"
+        ],
+        "overlap_ha": 0.0
+      },
+      {
+        "layers": [
+          "vegetation",
+          "monitoring_points"
+        ],
+        "overlap_ha": 0.0
+      },
+      {
+        "layers": [
+          "vegetation",
+          "vegetation_before"
+        ],
+        "overlap_ha": 85.42990911454565
+      },
+      {
+        "layers": [
+          "vegetation",
+          "access_line"
+        ],
+        "overlap_ha": 0.0
+      },
+      {
+        "layers": [
+          "vegetation_before",
+          "monitoring_points"
+        ],
+        "overlap_ha": 0.0
+      },
+      {
+        "layers": [
+          "vegetation_before",
+          "access_line"
+        ],
+        "overlap_ha": 0.0
+      }
+    ],
+    "study_notes": [
+      "All thematic layers intersect the study boundary."
+    ],
+    "limitations": [
+      "Layer names are user-provided, not inferred land-use classes.",
+      "Coverage of separate layers may overlap; percentages must not be added.",
+      "No ecological/legal diagnosis; temporal comparisons require reviewed dates and comparable layers.",
+      "Regional planar analysis; projection selection requires review for real projects."
+    ],
+    "synthetic": true
+  },
+  "temporal": {
+    "dates": [
+      "2025-01-01",
+      "2026-01-01"
+    ],
+    "before_ha": 118.65256201710966,
+    "after_ha": 118.65274127930272,
+    "gain_ha": 33.22283216476799,
+    "loss_ha": 33.22265290256519,
+    "stable_ha": 85.42990911454565,
+    "net_change_ha": 0.00017926219305954873,
+    "limitation": "Differences in supplied polygon layers; not automatic environmental event attribution."
+  },
+  "resistance": {
+    "reachable": true,
+    "path": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "weighted_cost": 180.0,
+    "distance_m": 180,
+    "neighbors": 4,
+    "limitation": "Supplied resistance values require ecological calibration; a least-cost path is not a validated corridor."
+  },
+  "integration": {
+    "schema": "biomadata.spatial-study.v1",
+    "sha256": "a46a4b0ba61bf5ac3e8d01b4532e1b025f015adec82994367923e272f4e0a37b",
+    "status": "export_only_not_connected"
+  }
+}
