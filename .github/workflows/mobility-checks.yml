@@ -1,0 +1,23 @@
+name: Mobility simulation checks
+on:
+  push:
+    paths: ['projects/gps-routelab/**', 'projects/carflow-idm/**', 'projects/fleetmind-ai/**', 'projects/mobility-*.js', 'mobility.test.mjs', '.github/workflows/mobility-checks.yml']
+  pull_request:
+    paths: ['projects/gps-routelab/**', 'projects/carflow-idm/**', 'projects/fleetmind-ai/**', 'projects/mobility-*.js', 'mobility.test.mjs', '.github/workflows/mobility-checks.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m unittest discover -s projects/gps-routelab/source -v
+      - run: python -m unittest discover -s projects/carflow-idm/source -v
+      - run: python -m unittest discover -s projects/fleetmind-ai/source -v
+      - run: node --test mobility.test.mjs

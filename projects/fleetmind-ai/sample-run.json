@@ -1,0 +1,10583 @@
+{
+  "synthetic": true,
+  "data_source": "seeded synthetic Poisson requests",
+  "city": "commuter",
+  "seed": 7,
+  "fleet": 16,
+  "policy": "nearest",
+  "horizon_min": 120,
+  "q_training_source": null,
+  "metrics": {
+    "requests": 354,
+    "completed": 349,
+    "active": 5,
+    "pending": 0,
+    "expired": 0,
+    "completion_rate": 0.9858757062146892,
+    "mean_pickup_wait_min": 0.7948717948717948,
+    "empty_km": 141.5,
+    "occupied_km": 364.0
+  },
+  "trace": [
+    {
+      "minute": 0,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 0,
+      "active": 0
+    },
+    {
+      "minute": 1,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 0,
+      "active": 3
+    },
+    {
+      "minute": 2,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 3,
+      "active": 1
+    },
+    {
+      "minute": 3,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 5,
+      "active": 2
+    },
+    {
+      "minute": 4,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 7,
+      "active": 4
+    },
+    {
+      "minute": 5,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 8,
+      "active": 8
+    },
+    {
+      "minute": 6,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 8,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 12,
+      "active": 8
+    },
+    {
+      "minute": 7,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 8,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 14,
+      "active": 8
+    },
+    {
+      "minute": 8,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 19,
+      "active": 7
+    },
+    {
+      "minute": 9,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 20,
+      "active": 10
+    },
+    {
+      "minute": 10,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 7,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 24,
+      "active": 9
+    },
+    {
+      "minute": 11,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 4,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 32,
+      "active": 4
+    },
+    {
+      "minute": 12,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 35,
+      "active": 7
+    },
+    {
+      "minute": 13,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 4,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 40,
+      "active": 6
+    },
+    {
+      "minute": 14,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 4,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 43,
+      "active": 8
+    },
+    {
+      "minute": 15,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 7,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 49,
+      "active": 9
+    },
+    {
+      "minute": 16,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 4,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 54,
+      "active": 10
+    },
+    {
+      "minute": 17,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 60,
+      "active": 7
+    },
+    {
+      "minute": 18,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 65,
+      "active": 8
+    },
+    {
+      "minute": 19,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 70,
+      "active": 8
+    },
+    {
+      "minute": 20,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 74,
+      "active": 10
+    },
+    {
+      "minute": 21,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 76,
+      "active": 12
+    },
+    {
+      "minute": 22,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 1,
+      "completed": 83,
+      "active": 9
+    },
+    {
+      "minute": 23,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 87,
+      "active": 8
+    },
+    {
+      "minute": 24,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 90,
+      "active": 6
+    },
+    {
+      "minute": 25,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 4,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 92,
+      "active": 6
+    },
+    {
+      "minute": 26,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 3,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 94,
+      "active": 4
+    },
+    {
+      "minute": 27,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 0,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 97,
+      "active": 7
+    },
+    {
+      "minute": 28,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 99,
+      "active": 6
+    },
+    {
+      "minute": 29,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 102,
+      "active": 4
+    },
+    {
+      "minute": 30,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 104,
+      "active": 4
+    },
+    {
+      "minute": 31,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 107,
+      "active": 1
+    },
+    {
+      "minute": 32,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 109,
+      "active": 4
+    },
+    {
+      "minute": 33,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 110,
+      "active": 7
+    },
+    {
+      "minute": 34,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 115,
+      "active": 5
+    },
+    {
+      "minute": 35,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 119,
+      "active": 4
+    },
+    {
+      "minute": 36,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 0,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 121,
+      "active": 7
+    },
+    {
+      "minute": 37,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 122,
+      "active": 8
+    },
+    {
+      "minute": 38,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 128,
+      "active": 2
+    },
+    {
+      "minute": 39,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 130,
+      "active": 1
+    },
+    {
+      "minute": 40,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 131,
+      "active": 4
+    },
+    {
+      "minute": 41,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 134,
+      "active": 4
+    },
+    {
+      "minute": 42,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 7,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 137,
+      "active": 2
+    },
+    {
+      "minute": 43,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 139,
+      "active": 1
+    },
+    {
+      "minute": 44,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 139,
+      "active": 3
+    },
+    {
+      "minute": 45,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 141,
+      "active": 2
+    },
+    {
+      "minute": 46,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 142,
+      "active": 3
+    },
+    {
+      "minute": 47,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 143,
+      "active": 3
+    },
+    {
+      "minute": 48,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 144,
+      "active": 2
+    },
+    {
+      "minute": 49,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 145,
+      "active": 5
+    },
+    {
+      "minute": 50,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 148,
+      "active": 4
+    },
+    {
+      "minute": 51,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 150,
+      "active": 6
+    },
+    {
+      "minute": 52,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 154,
+      "active": 5
+    },
+    {
+      "minute": 53,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 157,
+      "active": 2
+    },
+    {
+      "minute": 54,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 158,
+      "active": 7
+    },
+    {
+      "minute": 55,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 161,
+      "active": 5
+    },
+    {
+      "minute": 56,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 164,
+      "active": 8
+    },
+    {
+      "minute": 57,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 168,
+      "active": 5
+    },
+    {
+      "minute": 58,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 170,
+      "active": 5
+    },
+    {
+      "minute": 59,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 172,
+      "active": 3
+    },
+    {
+      "minute": 60,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 174,
+      "active": 3
+    },
+    {
+      "minute": 61,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 176,
+      "active": 4
+    },
+    {
+      "minute": 62,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 179,
+      "active": 2
+    },
+    {
+      "minute": 63,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 180,
+      "active": 7
+    },
+    {
+      "minute": 64,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 180,
+      "active": 9
+    },
+    {
+      "minute": 65,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 185,
+      "active": 7
+    },
+    {
+      "minute": 66,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 189,
+      "active": 5
+    },
+    {
+      "minute": 67,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 193,
+      "active": 5
+    },
+    {
+      "minute": 68,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 195,
+      "active": 5
+    },
+    {
+      "minute": 69,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 196,
+      "active": 7
+    },
+    {
+      "minute": 70,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 198,
+      "active": 12
+    },
+    {
+      "minute": 71,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 202,
+      "active": 10
+    },
+    {
+      "minute": 72,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 207,
+      "active": 7
+    },
+    {
+      "minute": 73,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 212,
+      "active": 4
+    },
+    {
+      "minute": 74,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 215,
+      "active": 2
+    },
+    {
+      "minute": 75,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 7,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 218,
+      "active": 4
+    },
+    {
+      "minute": 76,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 221,
+      "active": 9
+    },
+    {
+      "minute": 77,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 225,
+      "active": 11
+    },
+    {
+      "minute": 78,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 229,
+      "active": 10
+    },
+    {
+      "minute": 79,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 235,
+      "active": 10
+    },
+    {
+      "minute": 80,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 240,
+      "active": 10
+    },
+    {
+      "minute": 81,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 242,
+      "active": 13
+    },
+    {
+      "minute": 82,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 251,
+      "active": 5
+    },
+    {
+      "minute": 83,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 14,
+          "zone": 8,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 252,
+      "active": 8
+    },
+    {
+      "minute": 84,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 7,
+          "phase": "occupied"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 0,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 256,
+      "active": 8
+    },
+    {
+      "minute": 85,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 3,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 262,
+      "active": 6
+    },
+    {
+      "minute": 86,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 266,
+      "active": 3
+    },
+    {
+      "minute": 87,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 7,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 268,
+      "active": 5
+    },
+    {
+      "minute": 88,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 7,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 270,
+      "active": 5
+    },
+    {
+      "minute": 89,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 7,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 271,
+      "active": 8
+    },
+    {
+      "minute": 90,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 6,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 277,
+      "active": 6
+    },
+    {
+      "minute": 91,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 15,
+          "zone": 3,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 278,
+      "active": 10
+    },
+    {
+      "minute": 92,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 0,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 281,
+      "active": 10
+    },
+    {
+      "minute": 93,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 1,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 287,
+      "active": 9
+    },
+    {
+      "minute": 94,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 2,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 293,
+      "active": 6
+    },
+    {
+      "minute": 95,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 5,
+          "phase": "occupied"
+        }
+      ],
+      "pending": 0,
+      "completed": 297,
+      "active": 4
+    },
+    {
+      "minute": 96,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 300,
+      "active": 3
+    },
+    {
+      "minute": 97,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 301,
+      "active": 4
+    },
+    {
+      "minute": 98,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 305,
+      "active": 3
+    },
+    {
+      "minute": 99,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 308,
+      "active": 2
+    },
+    {
+      "minute": 100,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 309,
+      "active": 3
+    },
+    {
+      "minute": 101,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 311,
+      "active": 4
+    },
+    {
+      "minute": 102,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 313,
+      "active": 3
+    },
+    {
+      "minute": 103,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 315,
+      "active": 4
+    },
+    {
+      "minute": 104,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 315,
+      "active": 7
+    },
+    {
+      "minute": 105,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 318,
+      "active": 5
+    },
+    {
+      "minute": 106,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 319,
+      "active": 7
+    },
+    {
+      "minute": 107,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 322,
+      "active": 4
+    },
+    {
+      "minute": 108,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 325,
+      "active": 1
+    },
+    {
+      "minute": 109,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 326,
+      "active": 1
+    },
+    {
+      "minute": 110,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "occupied"
+        },
+        {
+          "id": 1,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 2,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 327,
+      "active": 4
+    },
+    {
+      "minute": 111,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 6,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 7,
+          "phase": "pickup"
+        }
+      ],
+      "pending": 0,
+      "completed": 331,
+      "active": 4
+    },
+    {
+      "minute": 112,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 3,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 332,
+      "active": 4
+    },
+    {
+      "minute": 113,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 335,
+      "active": 1
+    },
+    {
+      "minute": 114,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 336,
+      "active": 2
+    },
+    {
+      "minute": 115,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 6,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 337,
+      "active": 2
+    },
+    {
+      "minute": 116,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 3,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 5,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 6,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 338,
+      "active": 6
+    },
+    {
+      "minute": 117,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 1,
+          "zone": 7,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 3,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 6,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 8,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 5,
+          "phase": "occupied"
+        },
+        {
+          "id": 10,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 11,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 341,
+      "active": 5
+    },
+    {
+      "minute": 118,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 4,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 4,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 7,
+          "zone": 0,
+          "phase": "occupied"
+        },
+        {
+          "id": 8,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 9,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 1,
+          "phase": "pickup"
+        },
+        {
+          "id": 11,
+          "zone": 2,
+          "phase": "pickup"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 345,
+      "active": 8
+    },
+    {
+      "minute": 119,
+      "vehicles": [
+        {
+          "id": 0,
+          "zone": 3,
+          "phase": "pickup"
+        },
+        {
+          "id": 1,
+          "zone": 4,
+          "phase": "idle"
+        },
+        {
+          "id": 2,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 3,
+          "zone": 2,
+          "phase": "idle"
+        },
+        {
+          "id": 4,
+          "zone": 0,
+          "phase": "idle"
+        },
+        {
+          "id": 5,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 6,
+          "zone": 3,
+          "phase": "idle"
+        },
+        {
+          "id": 7,
+          "zone": 1,
+          "phase": "idle"
+        },
+        {
+          "id": 8,
+          "zone": 0,
+          "phase": "pickup"
+        },
+        {
+          "id": 9,
+          "zone": 8,
+          "phase": "idle"
+        },
+        {
+          "id": 10,
+          "zone": 2,
+          "phase": "occupied"
+        },
+        {
+          "id": 11,
+          "zone": 1,
+          "phase": "occupied"
+        },
+        {
+          "id": 12,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 13,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 14,
+          "zone": 5,
+          "phase": "idle"
+        },
+        {
+          "id": 15,
+          "zone": 8,
+          "phase": "idle"
+        }
+      ],
+      "pending": 0,
+      "completed": 349,
+      "active": 5
+    }
+  ]
+}

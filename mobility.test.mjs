@@ -1,0 +1,7 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {gpsRoute,carSimulation,compareCounts} from './projects/mobility-core.js';
+test('GPS A* optimality versus Dijkstra across closures, congestion and endpoints',()=>{for(const congestion of [1,2.5,5])for(const closure of [false,true])for(const [start,goal] of [[0,48],[21,27],[14,36],[2,2]])assert.equal(gpsRoute({congestion,closure,start,goal}).cost,gpsRoute({algorithm:'dijkstra',congestion,closure,start,goal}).cost);});
+test('IDM browser engine matches published Python scenario metrics and has no overlap',()=>{const report=JSON.parse(readFileSync(new URL('./projects/carflow-idm/report.json',import.meta.url)));for(const ref of report.scenarios){const result=carSimulation({cars:ref.parameters.cars});assert.equal(result.metrics.collision,false);for(const key of ['mean_speed_kmh','flow_vehicles_hour','min_gap_m'])assert.ok(Math.abs(result.metrics[key]-ref.metrics[key])<1e-7,`${key} should match Python`);assert.equal(result.trace.length,ref.trace.length);}});
+test('paired CSV handles BOM and rejects blank, duplicate and nonfinite counts',()=>{assert.equal(compareCounts('\uFEFFminute,observed,simulated\n0,10,12\n1,4,2').rmse,2);for(const text of ['minute,observed,simulated\n0,,2','minute,observed,simulated\n0,1,2\n0,2,2','minute,observed,simulated\n0,NaN,2'])assert.throws(()=>compareCounts(text));});

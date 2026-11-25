@@ -370,5 +370,62 @@
       "geometria-computacional",
       "dados-conhecimento"
     ]
+  },
+  {
+    "slug": "gps-routelab",
+    "title": "GPS RouteLab",
+    "title_en": "GPS RouteLab",
+    "category": "spatial",
+    "context": "Urban mobility · Estudo independente",
+    "description": "Roteamento A*, trânsito e associação de posições GPS à rede viária.",
+    "description_en": "A* routing, traffic and GPS-to-road-network matching.",
+    "tags": [
+      "Python",
+      "A* / Dijkstra",
+      "GPS",
+      "Grafos"
+    ],
+    "package": "gps_routelab",
+    "themes": [
+      "ml-ai-mobility"
+    ]
+  },
+  {
+    "slug": "carflow-idm",
+    "title": "CarFlow · Dinâmica de carros",
+    "title_en": "CarFlow · Car dynamics",
+    "category": "spatial",
+    "context": "Urban mobility · Estudo independente",
+    "description": "Microssimulação de carros, frenagem e ondas de congestionamento com IDM.",
+    "description_en": "Car microsimulation, braking and traffic waves with IDM.",
+    "tags": [
+      "Python",
+      "IDM",
+      "Microssimulação",
+      "Tráfego"
+    ],
+    "package": "carflow",
+    "themes": [
+      "ml-ai-mobility"
+    ]
+  },
+  {
+    "slug": "fleetmind-ai",
+    "title": "FleetMind · AI & Simulation",
+    "title_en": "FleetMind · AI & Simulation",
+    "category": "rl",
+    "context": "Urban mobility · Estudo independente",
+    "description": "Plataforma Python de frotas, demanda sintética, previsão e reposicionamento com IA.",
+    "description_en": "Python platform for fleets, synthetic demand, forecasting and AI repositioning.",
+    "tags": [
+      "Python",
+      "Q-learning",
+      "Multi-agent",
+      "Demand ML"
+    ],
+    "package": "fleetmind",
+    "themes": [
+      "ml-ai-mobility"
+    ]
   }
 ]
