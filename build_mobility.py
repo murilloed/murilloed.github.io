@@ -133,4 +133,6 @@ def main():
     index=index.replace('18 projetos →','21 projetos →').replace('18 projects →','21 projects →')
     (ROOT/'index.html').write_text(index,encoding='utf-8')
     print('Built three bilingual mobility projects and integrated topic galleries.')
+    from build_mobility_frontier import build
+    build()
 if __name__=='__main__':main()

@@ -427,5 +427,62 @@
     "themes": [
       "ml-ai-mobility"
     ]
+  },
+  {
+    "slug": "twinpulse-calibrated",
+    "title": "TwinPulse · Gêmeo digital calibrável",
+    "title_en": "TwinPulse · Calibrated digital twin",
+    "category": "data",
+    "context": "Pesquisa independente · UCI / MnDOT",
+    "description": "Previsão com dados reais, incerteza mensurada e cenários de capacidade viária.",
+    "description_en": "Real-data forecasting, measured uncertainty and road-capacity scenarios.",
+    "tags": [
+      "Python",
+      "Real data",
+      "Ridge",
+      "Calibration"
+    ],
+    "package": "twinpulse",
+    "themes": [
+      "ml-ai-mobility"
+    ]
+  },
+  {
+    "slug": "voltswarm-energy",
+    "title": "VoltSwarm · Frotas e energia",
+    "title_en": "VoltSwarm · Fleets and energy",
+    "category": "rl",
+    "context": "Pesquisa independente · mobilidade elétrica",
+    "description": "Agentes de veículos elétricos coordenam viagens e recarga sob falhas de infraestrutura.",
+    "description_en": "Electric-vehicle agents coordinate trips and charging under infrastructure failures.",
+    "tags": [
+      "Python",
+      "Multi-agent",
+      "Bandit",
+      "Energy"
+    ],
+    "package": "voltswarm",
+    "themes": [
+      "ml-ai-mobility"
+    ]
+  },
+  {
+    "slug": "civicshield-resilience",
+    "title": "CivicShield · Mobilidade resiliente",
+    "title_en": "CivicShield · Resilient mobility",
+    "category": "spatial",
+    "context": "Pesquisa independente · resiliência urbana",
+    "description": "Geração de cenários adversos e leilões de atendimento sensíveis à desigualdade geográfica.",
+    "description_en": "Adverse scenario generation and service auctions sensitive to geographic disparities.",
+    "tags": [
+      "Python",
+      "Adversarial search",
+      "Optimization",
+      "Equity"
+    ],
+    "package": "civicshield",
+    "themes": [
+      "ml-ai-mobility"
+    ]
   }
 ]

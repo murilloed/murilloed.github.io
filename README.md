@@ -50,3 +50,37 @@ idempotently integrates topic links. It preserves the rest of the portfolio.
 Regenerate the experiment reports by running each project's Python module before
 rebuilding the pages. No external Python dependencies are needed (Python 3.10+).
 The `mobility-checks.yml` workflow runs these checks on GitHub.
+
+### Mobility Frontiers
+
+Three additional research prototypes expand the gallery to six mobility projects:
+
+- **TwinPulse** (`projects/twinpulse-calibrated/`): ridge traffic forecasting,
+  chronological train/calibration/test splits and uncertainty evaluation on an
+  attributed 2,016-row UCI/MnDOT traffic-count sample. Counts are real; corridor
+  movements and capacity interventions are synthetic. Data: Hogue (2019), DOI
+  10.24432/C5X60B, CC BY 4.0. The source archive includes provenance and an offline
+  sample; no real trajectory or intervention validation is claimed.
+- **VoltSwarm** (`projects/voltswarm-energy/`): synthetic EV agents, charging queues,
+  battery conservation, reservation heuristics and a learned contextual bandit.
+  Includes held-out seeds, fleet-size transfer and station outages.
+- **CivicShield** (`projects/civicshield-resilience/`): adversarial event search,
+  learned zone-demand rates, geographic service deficits and heuristic auctions
+  across three networks. Its robust variant has event-edge foreknowledge; reports
+  explicitly disclose this information advantage. Equity is geographic only.
+
+Each archive has runnable Python, tests, units and limitations. The new browser
+labs replay Python reports. They do not claim to execute Python or train models in
+the browser. "Innovation" denotes a research hypothesis, not proven novelty or
+production superiority. Negative results and below-target coverage are retained.
+
+```sh
+python -m unittest discover -s projects/twinpulse-calibrated/source -v
+python -m unittest discover -s projects/voltswarm-energy/source -v
+python -m unittest discover -s projects/civicshield-resilience/source -v
+python build_mobility_frontier.py
+```
+
+`build_mobility_frontier.py` rebuilds the new three pages and integrates all six
+labs into the topic and complete-project galleries. `build_mobility.py` calls this
+builder after rebuilding the original three, so subsequent builds retain them.

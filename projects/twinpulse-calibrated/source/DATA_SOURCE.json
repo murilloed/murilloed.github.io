@@ -1,0 +1,15 @@
+{
+  "citation": "Hogue, J. (2019). Metro Interstate Traffic Volume. UCI Machine Learning Repository. DOI:10.24432/C5X60B",
+  "url": "https://archive.ics.uci.edu/static/public/492/metro+interstate+traffic+volume.zip",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "station": "MnDOT ATR 301, westbound I-94, Minneapolis\u2013St Paul",
+  "time_basis": "local CST timestamps as supplied; no timezone conversion",
+  "upstream_zip_sha256": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+  "upstream_rows": 48204,
+  "unique_timestamps": 40575,
+  "sample_rows": 2016,
+  "sample_start": "2018-07-08 20:00:00",
+  "sample_end": "2018-09-30 23:00:00",
+  "transformations": "Keep first row per timestamp (weather duplicates), retain timestamp and traffic_volume, sort, select last 2016 available records. No missing hours imputed."
+}
